@@ -160,7 +160,7 @@ sidebar_view: no
           <img style="background-color: {{ school.primary-color }};" class="{{ school.level }}-lazy sch-card__mascot-image" data-original="{{ school.mascot }}" alt="Logo: {{ school.title }} mascot" />
         </a>
             <h2 class="sch-card__name">{{ school.title }}</h2>
-            <p aria-label="phone number {{ school.phone }}" style="font-size:22px;">{{ school.phone }}</p>
+            <p aria-label="phone number {{ school.phone }}" style="font-size:20px;">{{ school.phone }}</p>
             <p><i class="sch-card__icon fa fa-cloud" style="color:#0063A4;"></i><span class="sch-card__icon-text"><a href="http://{{ school.acronym }}.hcpss.org" target="_blank"> Web Site</a></span></p>
             <p>{{ school.address }}, {{ school.town }},&nbsp;MD&nbsp;{{ school.zip }}</p>
             <p>Principal - {{ school.administrator }}</p>
@@ -244,7 +244,7 @@ sidebar_view: no
           <div class="col-right">
             <p><strong><a href="{{ school.gmap }}" target="_blank">Get Directions</a></strong></p>
               <a href="{{ school.gmap }}" target="_blank">
-                <img class="sch-card__modal--overlay-map sch-card__modal--overlay-map-lazy" data-original="http://www.hcpss.org/f/mrb/google-maps/{{ school.acronym }}-school-locate.jpg">
+                <img class="sch-card__modal--overlay-map sch-card__modal--overlay-map-lazy" data-original="http://www.hcpss.org/f/mrb/google-maps/{{ school.acronym }}-school-locate.jpg" alt="Map image: {{ school.title }} location">
               </a>
             </div>
           </section>
