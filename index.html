@@ -11,9 +11,9 @@ sidebar_view: no
 <div class="sch-card__filter-box" aria-labelledy="card-filter" role="region">
 
   <section class="sch-card__filter-box--sch-filters" aria-labelledby="sch-level" role="region">
-    <strong id="sch-level">School Level</strong>
     <div class="sch-card__categories-container-labels">
     <fieldset role="radiogroup">
+    <legend>School Level:</legend>
       <label for="all-schools">
         <input type="radio" name="filter" id="all-schools" class="label-change" value="*" checked> <span style="margin-right:10px;">All Schools (76)</span>
       </label>
@@ -157,7 +157,7 @@ sidebar_view: no
       <div class="{{ school.level }}-lazy sch-card__bg-image" data-original="{{ school.bg-image }}"></div>
       <div class="heading__no-reset--center">
         <a href="http://{{ school.acronym }}.hcpss.org" target="_blank">
-          <img style="background-color: {{ school.primary-color }};" class="{{ school.level }}-lazy sch-card__mascot-image" data-original="{{ school.mascot }}" alt=""/>
+          <img style="background-color: {{ school.primary-color }};" class="{{ school.level }}-lazy sch-card__mascot-image" data-original="{{ school.mascot }}" alt="Logo: {{ school.title }} mascot" />
         </a>
             <h2 class="sch-card__name">{{ school.title }}</h2>
             <p aria-label="phone number {{ school.phone }}" style="font-size:22px;">{{ school.phone }}</p>

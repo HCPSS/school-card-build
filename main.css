@@ -2393,6 +2393,10 @@ table th[class*="col-"] {
   border: none;
 }
 
+.sch-card__categories-container-labels fieldset legend {
+  margin: 0.5em 0;
+}
+
 .sch-card__categories section:nth-child(2) {
   margin-top: 3.125em;
 }
