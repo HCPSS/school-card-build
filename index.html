@@ -10,7 +10,7 @@ sidebar_view: no
 
 <div class="sch-card__filter-box" aria-labelledy="card-filter" role="region">
 
-  <section class="sch-card__filter-box--sch-filters" aria-labelledby="sch-level" role="region">
+  <section class="sch-card__filter-box--sch-filters" role="region">
     <div class="sch-card__categories-container-labels">
     <fieldset role="radiogroup">
     <legend>School Level:</legend>
@@ -177,12 +177,9 @@ sidebar_view: no
           <h2>{{ school.title }} </h2>
           <section class="contents">
             <div class="col-left">
-              <div class="sch-card__data">
-                <i class="sch-card__icon fa fa-cloud" style="color:#0063A4;"></i><span class="sch-card__icon-text"><a href="http://{{ school.acronym }}.hcpss.org" target="_blank"> Web Site</a></span>
-              </div>
-                <p><strong>Address:</strong> {{ school.address }}, {{ school.town }},&nbsp;MD&nbsp;{{ school.zip }}</p>
-                <p><strong>Phone:</strong> {{ school.phone }}</p>
-                <p><strong>Fax:</strong> {{ school.fax }}</p>
+              <p><strong>Address:</strong> {{ school.address }}, {{ school.town }},&nbsp;MD&nbsp;{{ school.zip }}</p>
+              <p><strong>Phone:</strong> {{ school.phone }}</p>
+              <p><strong>Fax:</strong> {{ school.fax }}</p>
               {% if school.profile != null or school.msde-report != null or school.walk-area != null %}
               <p><strong>Data</strong></p>
               {% endif %} 
@@ -243,9 +240,7 @@ sidebar_view: no
             </div>
           <div class="col-right">
             <p><strong><a href="{{ school.gmap }}" target="_blank">Get Directions</a></strong></p>
-              <a href="{{ school.gmap }}" target="_blank">
-                <img class="sch-card__modal--overlay-map sch-card__modal--overlay-map-lazy" data-original="http://www.hcpss.org/f/mrb/google-maps/{{ school.acronym }}-school-locate.jpg" alt="Map image: {{ school.title }} location">
-              </a>
+              <img class="sch-card__modal--overlay-map sch-card__modal--overlay-map-lazy" data-original="http://www.hcpss.org/f/mrb/google-maps/{{ school.acronym }}-school-locate.jpg" alt="Map image: {{ school.title }} location">
             </div>
           </section>
           </span>
