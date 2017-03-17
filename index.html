@@ -156,9 +156,7 @@ sidebar_view: no
   <div class="sch-card sch-card__{{ school.level }}{% if school.town != null %} sch-card__{{ school.town | downcase | remove: " " }}{% endif %}{% if school.green != null %} sch-card__green{% endif %}{% if school.pbis != null %} sch-card__pbis{% endif %}{% if school.title-I != null %} sch-card__titlei{% endif %}{% if school.esm != null %} sch-card__esm{% endif %}{% if school.healthy-howard != null %} sch-card__healthy{% endif %}{% if school.blue != null %} sch-card__blue-ribbon{% endif %}{% if school.nce != null %} sch-card__nce{% endif %}{% if school.leed != null %} sch-card__leed{% endif %}">
       <div class="{{ school.level }}-lazy sch-card__bg-image" data-original="{{ school.bg-image }}"></div>
       <div class="heading__no-reset--center">
-        <a href="http://{{ school.acronym }}.hcpss.org" target="_blank">
           <img style="background-color: {{ school.primary-color }};" class="{{ school.level }}-lazy sch-card__mascot-image" data-original="{{ school.mascot }}" alt="Logo: {{ school.title }} mascot" />
-        </a>
             <h2 class="sch-card__name">{{ school.title }}</h2>
             <p aria-label="phone number {{ school.phone }}" style="font-size:20px;">{{ school.phone }}</p>
             <p><i class="sch-card__icon fa fa-cloud" style="color:#0063A4;"></i><span class="sch-card__icon-text"><a href="http://{{ school.acronym }}.hcpss.org" target="_blank"> Web Site</a></span></p>
