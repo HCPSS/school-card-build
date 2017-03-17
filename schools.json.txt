@@ -1,0 +1,14 @@
+---
+permalink: /academies.json
+---
+
+[
+  {% for school in site.schools %}
+    {
+      "title": "{{ school.title | xml_escape }}",
+      "phone": "{{ school.phone | xml_escape }}",
+      "permalink": "/school/{{ school.slug | xml_escape }}/",
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

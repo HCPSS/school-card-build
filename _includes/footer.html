@@ -1,0 +1,73 @@
+
+
+{% if page.sidebar_view %}
+<div class="sidebar">
+<li id="advanced_menu-24" class="widget widget_advanced_menu">
+
+<ul id="menu-home-and-hospital-teaching" class="menu-side">
+  <li class="menu-item"><a href="index.html">Career and Technology Education</a></li>
+  <li class="menu-item"><a href="academies.html">Career Clusters and Academies</a></li>
+  <li class="menu-item"><a href="electives.html">Elective Course Options</a></li>
+  <li class="menu-item"><a href="college-credits.html">College Articulation Agreements</a></li>
+  <li class="menu-item"><a href="contact.html">Contact Information</a></li>
+</ul>
+</li>
+</div>
+{% endif %}
+
+</div>
+</div>
+
+
+<div class="footer group">
+<div class="footer-inner group">
+<div class="footer-directions">
+  <a target="_blank" href="https://www.google.com/maps/preview?hl=en&amp;q=10910+Clarksville+Pike,+Ellicott+City,+MD+21042"><img id="hcpss-gmaps-footer-icon" src="http://s3.amazonaws.com/hcpss.web.site/images/directions-maps.png" height="120" width="120" alt="" /></a>
+  <address>
+  <strong>Howard County Public School System</strong><br>
+  10910 Clarksville Pike<br>
+  Ellicott City, MD 21042<br>
+  Main Phone: (410) 313-6600<br>
+  <a href="/employees/staff-directory/">Staff Directory</a> | <a href="/employment/#equal-opportunity">Equal Opportunity</a>
+</address>
+</div>
+<div class="footer-hcpssnews">
+<p><strong>Your HCPSS News Subscription</strong><br>
+Learn more about the email and text alerts included within your HCPSS News subscription.</p>
+<p> <span class="subscribe"><a href="/hcpss-news/"><i class="fa fa-bullhorn"></i>&nbsp;Learn more&nbsp;→</a></span></p>
+</div>
+</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://www.hcpss.org/f/mrb/wp-env/jquery.searcher.min.js"></script>
+<script src="http://www.hcpss.org/f/mrb/wp-env/jquery.lazyload.min.js"></script>
+<script src="http://www.hcpss.org/f/mrb/wp-env/dev.js"></script>
+
+
+<script>
+function scrollLoad() {
+  setTimeout(function() { window.scrollBy(0, 1) }, 500);
+  setTimeout(function() { window.scrollBy(0, -1) }, 500);
+}
+
+$(function() {
+  $('.es-lazy, .ms-lazy, .hs-lazy, .ec-lazy, img.sch-card__modal--overlay-map-lazy').show().lazyload({ effect : "fadeIn" });
+
+  $('.label-change').on('change', function() {
+    if($('.sch-card__hs') || ('.sch-card__es') || ('.sch-card__ms') || ('.sch-card__ec').prop('style').display == 'block') {
+      $('.hs-lazy, .es-lazy, .ms-lazy, .ec-lazy').show().lazyload({
+          event: "change"
+      });
+    }
+  });
+  $("#cardsearchinput").keyup(function() {
+    if($('.sch-card__hs') || ('.sch-card__es') || ('.sch-card__ms') || ('.sch-card__ec').prop('style').display == 'block') {
+      $('.hs-lazy, .es-lazy, .ms-lazy, .ec-lazy').show().lazyload({
+          event: "keyup"
+      });
+    }
+  });
+     
+});
+</script>

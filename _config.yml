@@ -1,0 +1,12 @@
+# Site settings
+
+# the subpath of your site, e.g. /blog/
+baseurl: "/"
+
+# Build settings
+markdown: kramdown
+
+collections:
+  schools:
+    output: true
+    permalink: /school/:path/
