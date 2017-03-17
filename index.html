@@ -150,113 +150,108 @@ sidebar_view: no
 
 </div>
 
-<div id="sch-carddata">
+<section id="sch-carddata" class="flex-contain-row-wrap">
 
-{% for school in site.schools %}
-<div class="sch-card sch-card__{{ school.level }}{% if school.town != null %} sch-card__{{ school.town | downcase | remove: " " }}{% endif %}{% if school.green != null %} sch-card__green{% endif %}{% if school.pbis != null %} sch-card__pbis{% endif %}{% if school.title-I != null %} sch-card__titlei{% endif %}{% if school.esm != null %} sch-card__esm{% endif %}{% if school.healthy-howard != null %} sch-card__healthy{% endif %}{% if school.blue != null %} sch-card__blue-ribbon{% endif %}{% if school.nce != null %} sch-card__nce{% endif %}{% if school.leed != null %} sch-card__leed{% endif %}">
-    <div class="{{ school.level }}-lazy sch-card__bg-image" data-original="{{ school.bg-image }}"></div>
-    <noscript><div class="sch-card__bg-image" style="background-image:url({{ school.bg-image }});"></div></noscript>
-    <div class="heading__no-reset--center">
-      <a href="http://{{ school.acronym }}.hcpss.org" target="_blank">
-        <img style="background-color: {{ school.primary-color }};" class="{{ school.level }}-lazy sch-card__mascot-image" data-original="{{ school.mascot }}" alt=""/>
-        <noscript><img src="{{ school.mascot }}" style="background-color: {{ school.primary-color }};" class="sch-card__mascot-image" height="60" width="60" alt=""/></noscript>
-      </a>
-          <h2 class="sch-card__name">{{ school.title }}</h2>
-          <p aria-label="phone number {{ school.phone }}" style="font-size:22px;">{{ school.phone }}</p>
-          <p><i class="sch-card__icon fa fa-cloud" style="color:#0063A4;"></i><span class="sch-card__icon-text"><a href="http://{{ school.acronym }}.hcpss.org" target="_blank"> Web Site</a></span></p>
-          <p>{{ school.address }}, {{ school.town }},&nbsp;MD&nbsp;{{ school.zip }}</p>
-          <p>Principal - {{ school.administrator }}</p>
-          <p aria-label="school hours {{ school.hours }}">{{ school.hours }}</p>          
-      <label style="cursor:pointer;font-size:14px;text-transform:none;" class="btn__small sch-card__modal--toggle" for="{{ school.acronym }}" tabindex="0">View School Details</label>
-    </div>
-      <input onClick="scrollLoad()" class="sch-card__modal--toggle" type="radio" id="{{ school.acronym }}" name="overlay">
-    <div class="sch-card__modal">
-    <input type="radio" id="close" name="overlay">
-    <label style="cursor:pointer;" for="close">
-      <div class="sch-card__modal--overlay">
-        <div class="closebutton">X</div>
-        <span class="sch-card__modal--overlay-inner">
-        <h2>{{ school.title }} </h2>
-        <section class="contents">
-          <div class="col-left">
-            <div class="sch-card__data">
-              <i class="sch-card__icon fa fa-cloud" style="color:#0063A4;"></i><span class="sch-card__icon-text"><a href="http://{{ school.acronym }}.hcpss.org" target="_blank"> Web Site</a></span>
-            </div>
-              <p><strong>Address:</strong> {{ school.address }}, {{ school.town }},&nbsp;MD&nbsp;{{ school.zip }}</p>
-              <p><strong>Phone:</strong> {{ school.phone }}</p>
-              <p><strong>Fax:</strong> {{ school.fax }}</p>
-            {% if school.profile != null or school.msde-report != null or school.walk-area != null %}
-            <p><strong>Data</strong></p>
-            {% endif %} 
-            {% if school.profile %}
-            <div class="sch-card__data">
-              <i class="sch-card__icon fa fa-graduation-cap fa-2"></i><span class="sch-card__icon-text"><a href="http://www.hcpss.org/f/schools/profiles/prof_{{ school.level }}_{{ school.file-name }}.pdf"> School Profile</a></span>
-            </div>
-            {% endif %} 
-            {% if school.msde-report != null %}
-            <div class="sch-card__data">
-              <i class="sch-card__icon fa fa-line-chart fa-2"></i><span class="sch-card__icon-text"><a href="http://www.hcpss.org/f/schools/performance/ispr_en_{{ school.level }}_{{ school.file-name }}.pdf"> MSDE Performance Report</a></span>
-            </div>
-            {% endif %} 
-
-            {% if school.walk-area %}
-            <div class="sch-card__data">
-              <i class="sch-card__icon fa fa-map-o fa-2"></i><span class="sch-card__icon-text"><a href="http://www.hcpss.org/f/schools/{{ school.walk-area-url }}"> Walk Area Map</a></span>
-            </div>
-            {% else %}
-            <div class="sch-card__data">
-              <i class="sch-card__icon fa fa-map-o fa-2"></i><span class="sch-card__icon-text"> All Students Transported</span>
-            </div>  
-            {% endif %} 
-
-            {% if school.green != null or school.pbis != null or school.blue != null or school.nce != null or school.healthy-howard != null %}
-            <p><strong>Achievements</strong></p>
-            {% endif %} 
-            {% if school.green != null %}
-            <div class="sch-card__data">
-              <i class="sch-card__icon fa fa-leaf fa-2" style="color:#015700;"></i><span class="sch-card__icon-text"> {% if school.green-url != null %}<a href="{{ school.green-url }}" target="_blank">{% endif %} Green School{% if school.green-url != null %}</a>{% endif %}  – {{ school.green-year }}</span>
-            </div>
-            {% endif %}
-            {% if school.leed != null %}
-            <div class="sch-card__data">
-              <i class="sch-card__icon fa fa-leaf fa-2" style="color:#{{ school.leed-color }}"></i><span class="sch-card__icon-text"> {% if school.leed-url != null %}<a href="{{ school.leed-url }}" target="_blank">{% endif %} LEED School, {{ school.leed-level }}{% if school.leed-url != null %}</a>{% endif %}  – {{ school.leed-year }}</span>
-            </div>
-            {% endif %}          
-            {% if school.pbis != null %}
-            <div class="sch-card__data">
-              <i class="sch-card__icon fa fa-star fa-2" style="color:#{{ school.pbis-color }};"></i><span class="sch-card__icon-text"> PBIS Maryland {{ school.pbis-level }}</span>
-            </div>
-            {% endif %} 
-            {% if school.blue != null %}
-      			<div class="sch-card__data">
-      				<i class="sch-card__icon fa fa-star fa-2" style="color:#0063A4;"></i><span class="sch-card__icon-text"> Blue Ribbon School – {{ school.blue-year }}</span>
-      			</div>
-			      {% endif %}
-            {% if school.nce != null %}
-          	<div class="sch-card__data">
-          		<i class="sch-card__icon fa fa-trophy fa-2" style="color:#C51230;"></i><span class="sch-card__icon-text"> <a href="https://www.nasc.us/national-councils-of-excellence" target="_blank">National Council of Excellence School</a> – {{ school.nce-year }}</span>
-          	</div>
-          	{% endif %}			         
-            {% if school.healthy-howard != null %}
-            <div class="sch-card__data">
-              <i class="sch-card__icon fa fa-heart fa-2" style="color:#953993;"></i><span class="sch-card__icon-text"> Healthy Howard School - {{ school.healthy-howard-level }}</span>
-            </div>
-            {% endif %}
-          </div>
-        <div class="col-right">
-          <p><strong><a href="{{ school.gmap }}" target="_blank">Get Directions</a></strong></p>
-            <a href="{{ school.gmap }}" target="_blank">
-              <img class="sch-card__modal--overlay-map sch-card__modal--overlay-map-lazy" data-original="http://www.hcpss.org/f/mrb/google-maps/{{ school.acronym }}-school-locate.jpg">
-              <noscript>
-                <img class="sch-card__modal--overlay-map" src="http://www.hcpss.org/f/mrb/google-maps/{{ school.acronym }}-school-locate.jpg" />
-              </noscript>
-            </a>
-          </div>
-        </section>
-        </span>
+  {% for school in site.schools %}
+  <div class="sch-card sch-card__{{ school.level }}{% if school.town != null %} sch-card__{{ school.town | downcase | remove: " " }}{% endif %}{% if school.green != null %} sch-card__green{% endif %}{% if school.pbis != null %} sch-card__pbis{% endif %}{% if school.title-I != null %} sch-card__titlei{% endif %}{% if school.esm != null %} sch-card__esm{% endif %}{% if school.healthy-howard != null %} sch-card__healthy{% endif %}{% if school.blue != null %} sch-card__blue-ribbon{% endif %}{% if school.nce != null %} sch-card__nce{% endif %}{% if school.leed != null %} sch-card__leed{% endif %}">
+      <div class="{{ school.level }}-lazy sch-card__bg-image" data-original="{{ school.bg-image }}"></div>
+      <div class="heading__no-reset--center">
+        <a href="http://{{ school.acronym }}.hcpss.org" target="_blank">
+          <img style="background-color: {{ school.primary-color }};" class="{{ school.level }}-lazy sch-card__mascot-image" data-original="{{ school.mascot }}" alt=""/>
+        </a>
+            <h2 class="sch-card__name">{{ school.title }}</h2>
+            <p aria-label="phone number {{ school.phone }}" style="font-size:22px;">{{ school.phone }}</p>
+            <p><i class="sch-card__icon fa fa-cloud" style="color:#0063A4;"></i><span class="sch-card__icon-text"><a href="http://{{ school.acronym }}.hcpss.org" target="_blank"> Web Site</a></span></p>
+            <p>{{ school.address }}, {{ school.town }},&nbsp;MD&nbsp;{{ school.zip }}</p>
+            <p>Principal - {{ school.administrator }}</p>
+            <p aria-label="school hours {{ school.hours }}">{{ school.hours }}</p>          
+        <label style="cursor:pointer;font-size:14px;text-transform:none;" class="btn__small sch-card__modal--toggle" for="{{ school.acronym }}" tabindex="0">View School Details</label>
       </div>
-    </label>
-    </div>
-</div>
-{% endfor %}
-</div>
+        <input onClick="scrollLoad()" class="sch-card__modal--toggle" type="radio" id="{{ school.acronym }}" name="overlay">
+      <div class="sch-card__modal">
+      <input type="radio" id="close" name="overlay">
+      <label style="cursor:pointer;" for="close">
+        <div class="sch-card__modal--overlay">
+          <div class="closebutton">X</div>
+          <span class="sch-card__modal--overlay-inner">
+          <h2>{{ school.title }} </h2>
+          <section class="contents">
+            <div class="col-left">
+              <div class="sch-card__data">
+                <i class="sch-card__icon fa fa-cloud" style="color:#0063A4;"></i><span class="sch-card__icon-text"><a href="http://{{ school.acronym }}.hcpss.org" target="_blank"> Web Site</a></span>
+              </div>
+                <p><strong>Address:</strong> {{ school.address }}, {{ school.town }},&nbsp;MD&nbsp;{{ school.zip }}</p>
+                <p><strong>Phone:</strong> {{ school.phone }}</p>
+                <p><strong>Fax:</strong> {{ school.fax }}</p>
+              {% if school.profile != null or school.msde-report != null or school.walk-area != null %}
+              <p><strong>Data</strong></p>
+              {% endif %} 
+              {% if school.profile %}
+              <div class="sch-card__data">
+                <i class="sch-card__icon fa fa-graduation-cap fa-2"></i><span class="sch-card__icon-text"><a href="http://www.hcpss.org/f/schools/profiles/prof_{{ school.level }}_{{ school.file-name }}.pdf"> School Profile</a></span>
+              </div>
+              {% endif %} 
+              {% if school.msde-report != null %}
+              <div class="sch-card__data">
+                <i class="sch-card__icon fa fa-line-chart fa-2"></i><span class="sch-card__icon-text"><a href="http://www.hcpss.org/f/schools/performance/ispr_en_{{ school.level }}_{{ school.file-name }}.pdf"> MSDE Performance Report</a></span>
+              </div>
+              {% endif %} 
+
+              {% if school.walk-area %}
+              <div class="sch-card__data">
+                <i class="sch-card__icon fa fa-map-o fa-2"></i><span class="sch-card__icon-text"><a href="http://www.hcpss.org/f/schools/{{ school.walk-area-url }}"> Walk Area Map</a></span>
+              </div>
+              {% else %}
+              <div class="sch-card__data">
+                <i class="sch-card__icon fa fa-map-o fa-2"></i><span class="sch-card__icon-text"> All Students Transported</span>
+              </div>  
+              {% endif %} 
+
+              {% if school.green != null or school.pbis != null or school.blue != null or school.nce != null or school.healthy-howard != null %}
+              <p><strong>Achievements</strong></p>
+              {% endif %} 
+              {% if school.green != null %}
+              <div class="sch-card__data">
+                <i class="sch-card__icon fa fa-leaf fa-2" style="color:#015700;"></i><span class="sch-card__icon-text"> {% if school.green-url != null %}<a href="{{ school.green-url }}" target="_blank">{% endif %} Green School{% if school.green-url != null %}</a>{% endif %}  – {{ school.green-year }}</span>
+              </div>
+              {% endif %}
+              {% if school.leed != null %}
+              <div class="sch-card__data">
+                <i class="sch-card__icon fa fa-leaf fa-2" style="color:#{{ school.leed-color }}"></i><span class="sch-card__icon-text"> {% if school.leed-url != null %}<a href="{{ school.leed-url }}" target="_blank">{% endif %} LEED School, {{ school.leed-level }}{% if school.leed-url != null %}</a>{% endif %}  – {{ school.leed-year }}</span>
+              </div>
+              {% endif %}          
+              {% if school.pbis != null %}
+              <div class="sch-card__data">
+                <i class="sch-card__icon fa fa-star fa-2" style="color:#{{ school.pbis-color }};"></i><span class="sch-card__icon-text"> PBIS Maryland {{ school.pbis-level }}</span>
+              </div>
+              {% endif %} 
+              {% if school.blue != null %}
+        			<div class="sch-card__data">
+        				<i class="sch-card__icon fa fa-star fa-2" style="color:#0063A4;"></i><span class="sch-card__icon-text"> Blue Ribbon School – {{ school.blue-year }}</span>
+        			</div>
+  			      {% endif %}
+              {% if school.nce != null %}
+            	<div class="sch-card__data">
+            		<i class="sch-card__icon fa fa-trophy fa-2" style="color:#C51230;"></i><span class="sch-card__icon-text"> <a href="https://www.nasc.us/national-councils-of-excellence" target="_blank">National Council of Excellence School</a> – {{ school.nce-year }}</span>
+            	</div>
+            	{% endif %}			         
+              {% if school.healthy-howard != null %}
+              <div class="sch-card__data">
+                <i class="sch-card__icon fa fa-heart fa-2" style="color:#953993;"></i><span class="sch-card__icon-text"> Healthy Howard School - {{ school.healthy-howard-level }}</span>
+              </div>
+              {% endif %}
+            </div>
+          <div class="col-right">
+            <p><strong><a href="{{ school.gmap }}" target="_blank">Get Directions</a></strong></p>
+              <a href="{{ school.gmap }}" target="_blank">
+                <img class="sch-card__modal--overlay-map sch-card__modal--overlay-map-lazy" data-original="http://www.hcpss.org/f/mrb/google-maps/{{ school.acronym }}-school-locate.jpg">
+              </a>
+            </div>
+          </section>
+          </span>
+        </div>
+      </label>
+      </div>
+  </div>
+  {% endfor %}
+</section>
