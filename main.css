@@ -2188,21 +2188,9 @@ table th[class*="col-"] {
   padding-top: 20px;
 }
 
-@media screen and (min-width: 685px) and (max-width: 1199px) {
+@media screen and (min-width: 685px) {
   .sch-card__filter-box {
-    height: 140px;
-  }
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1500px) {
-  .sch-card__filter-box {
-    height: 140px;
-  }
-}
-
-@media screen and (min-width: 1501px) {
-  .sch-card__filter-box {
-    height: 140px;
+    height: 160px;
   }
 }
 
