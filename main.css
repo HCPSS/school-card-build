@@ -434,6 +434,10 @@ a .thirds__action-tile:hover {
   }
 }
 
+fieldset {
+  border: none;
+}
+
 .nav-container {
   display: none;
   width: 800px;
@@ -2392,6 +2396,12 @@ table th[class*="col-"] {
 .sch-card__categories label.sch-card__close-button {
   float: left;
   width: 100%;
+}
+
+.sch-card__categories fieldset legend {
+  position: absolute;
+  left: -9999px;
+  text-align: center;
 }
 
 .sch-card__categories section {
