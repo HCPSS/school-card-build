@@ -49,14 +49,15 @@ sidebar_view: no
 
 <div class="sch-card__categories">
   <input type="checkbox" id="sidebartoggler">
-    <label for="sidebartoggler">
+    <label for="sidebartoggler" class="sch-card__close-button">
       <p style="float: right;cursor:pointer;">Close <i class="fa fa-times-circle" aria-hidden="true"></i></p>
     </label>
 
   <section>
-  <form>
-    <input name="cardsearch" type="search" id="cardsearchinput" placeholder="Search for a school">
-  </form>
+    <form>
+    <label for="cardsearchinput">Search:</label>
+      <input name="cardsearch" type="search" id="cardsearchinput" placeholder="Search for a school">
+    </form>
   </section>
 
   <section aria-labelledby="md-awards" role="region">

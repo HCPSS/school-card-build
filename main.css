@@ -2389,6 +2389,11 @@ table th[class*="col-"] {
   margin-top: 3.125em;
 }
 
+.sch-card__categories label.sch-card__close-button {
+  float: left;
+  width: 100%;
+}
+
 .sch-card__categories section {
   padding: 10px 10%;
 }
