@@ -4,6 +4,10 @@ title: Schools
 sidebar_view: no
 ---
 
+<div class="hero-heading">
+<h1>Schools</h1>
+</div>
+
 <p><a href="/schools/enrollment-reports/">View enrollment data →</a></p>
 
 <input type="checkbox" id="sidebartoggler">
@@ -12,24 +16,24 @@ sidebar_view: no
 
   <section class="sch-card__filter-box--sch-filters" role="region">
     <div class="sch-card__categories-container-labels">
-    <fieldset role="radiogroup">
-    <legend>School Level:</legend>
-      <label for="all-schools">
-        <input type="radio" name="filter" id="all-schools" class="label-change" value="*" checked> <span style="margin-right:10px;">All Schools (76)</span>
-      </label>
-      <label for="es">
-        <input type="radio" name="filter" id="es" class="label-change" value=".sch-card__es"> <span style="margin-right:10px;">Elementary (41)</span>
-      </label>
-      <label for="ms">
-        <input type="radio" name="filter" id="ms" class="label-change" value=".sch-card__ms"> <span style="margin-right:10px;">Middle (20)</span>
-      </label>
-      <label for="hs">
-        <input type="radio" name="filter" id="hs" class="label-change" value=".sch-card__hs"> <span style="margin-right:10px;">High (12)</span>
-      </label>
-      <label for="ed-center">
-        <input type="radio" name="filter" id="ed-center" class="label-change" value=".sch-card__ec"> <span style="margin-right:10px;">Education Center&nbsp;(3)&nbsp;</span>
-      </label>
-    </fieldset>
+      <fieldset role="radiogroup">
+      <legend>School Level:</legend>
+        <label for="all-schools">
+          <input type="radio" name="filter" id="all-schools" class="label-change" value="*" checked> <span style="margin-right:10px;">All Schools (76)</span>
+        </label>
+        <label for="es">
+          <input type="radio" name="filter" id="es" class="label-change" value=".sch-card__es"> <span style="margin-right:10px;">Elementary (41)</span>
+        </label>
+        <label for="ms">
+          <input type="radio" name="filter" id="ms" class="label-change" value=".sch-card__ms"> <span style="margin-right:10px;">Middle (20)</span>
+        </label>
+        <label for="hs">
+          <input type="radio" name="filter" id="hs" class="label-change" value=".sch-card__hs"> <span style="margin-right:10px;">High (12)</span>
+        </label>
+        <label for="ed-center">
+          <input type="radio" name="filter" id="ed-center" class="label-change" value=".sch-card__ec"> <span style="margin-right:10px;">Education Center&nbsp;(3)&nbsp;</span>
+        </label>
+      </fieldset>
     </div>
   </section>
 
@@ -159,7 +163,9 @@ sidebar_view: no
 
   {% for school in site.schools %}
   <div class="sch-card sch-card__{{ school.level }}{% if school.town != null %} sch-card__{{ school.town | downcase | remove: " " }}{% endif %}{% if school.green != null %} sch-card__green{% endif %}{% if school.pbis != null %} sch-card__pbis{% endif %}{% if school.title-I != null %} sch-card__titlei{% endif %}{% if school.esm != null %} sch-card__esm{% endif %}{% if school.healthy-howard != null %} sch-card__healthy{% endif %}{% if school.blue != null %} sch-card__blue-ribbon{% endif %}{% if school.nce != null %} sch-card__nce{% endif %}{% if school.leed != null %} sch-card__leed{% endif %}">
+
       <div class="{{ school.level }}-lazy sch-card__bg-image" data-original="{{ school.bg-image }}"></div>
+
       <div class="heading__no-reset--center">
           <img style="background-color: {{ school.primary-color }};" class="{{ school.level }}-lazy sch-card__mascot-image" data-original="{{ school.mascot }}" alt="Logo: {{ school.title }} mascot" />
             <h2 class="sch-card__name">{{ school.title }}</h2>
@@ -168,16 +174,14 @@ sidebar_view: no
             <p>{{ school.address }}, {{ school.town }},&nbsp;MD&nbsp;{{ school.zip }}</p>
             <p>Principal - {{ school.administrator }}</p>
             <p aria-label="school hours {{ school.hours }}">{{ school.hours }}</p>          
-        <label style="cursor:pointer;font-size:14px;text-transform:none;" class="btn__small sch-card__modal--toggle" for="{{ school.acronym }}" tabindex="0">View School Details</label>
+        <a onclick="scrollLoad()" class="btn__small sch-card__modal--toggle" data-popup-open="{{ school.acronym }}" tabindex="0" href="#">View School Details</a>
       </div>
-        <input onClick="scrollLoad()" class="sch-card__modal--toggle" type="radio" id="{{ school.acronym }}" name="overlay">
-      <div class="sch-card__modal">
-      <input type="radio" id="close" name="overlay">
-      <label style="cursor:pointer;" for="close">
+
+      <section class="sch-card__modal" data-popup="{{ school.acronym }}">
+        <div class="close" data-popup-close="{{ school.acronym }}"></div>
         <div class="sch-card__modal--overlay">
-          <div class="closebutton">X</div>
           <span class="sch-card__modal--overlay-inner">
-          <h2>{{ school.title }} </h2>
+          <h2>{{ school.title }}</h2>
           <section class="contents">
             <div class="col-left">
               <p><strong>Address:</strong> {{ school.address }}, {{ school.town }},&nbsp;MD&nbsp;{{ school.zip }}</p>
@@ -248,8 +252,7 @@ sidebar_view: no
           </section>
           </span>
         </div>
-      </label>
-      </div>
+      </section>
   </div>
   {% endfor %}
 </section>

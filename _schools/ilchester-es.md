@@ -7,7 +7,7 @@ file-name: ilchester
 primary-color: rgb(0, 102, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/ies/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/03/ies-students-group-photo.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-ies-xs.png
 
 administrator: Joy Byrd-Butler

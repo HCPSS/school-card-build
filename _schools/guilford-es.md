@@ -7,7 +7,7 @@ file-name: guilford
 primary-color: rgb(0, 51, 102)
 level: es
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/ges-paint-night.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/03/ges-student-science-fair.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-ges-xs.png
 
 administrator: Jonathan Davis

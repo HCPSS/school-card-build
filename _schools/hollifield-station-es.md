@@ -7,7 +7,7 @@ file-name: hollifield-station
 primary-color: rgb(0, 102, 51)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/hses/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/03/hses-student-safety-activity.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-hses-xs.png
 
 administrator: Lisa Booth

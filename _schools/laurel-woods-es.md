@@ -7,7 +7,7 @@ file-name: laurelwoods
 primary-color: rgb(0, 51, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/lwes/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/03/lwes-classroom-teach-group.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-lwes-xs.png
 
 administrator: Susan Brown

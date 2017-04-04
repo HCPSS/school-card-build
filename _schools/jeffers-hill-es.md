@@ -7,7 +7,7 @@ file-name: jeffershill
 primary-color: rgb(204, 0, 0)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/jhes/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/03/jhes-students-team-activity.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-jhes-xs.png
 
 administrator: Patricia Shifflett
