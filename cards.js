@@ -70,16 +70,19 @@ function scrollLoad() {
   setTimeout(function() { window.scrollBy(0, -1) }, 200);
 }
 
-$(function() {
+var modalToggle = function(modalContainer, modalInner) {
   $('[data-popup-open]').on('click', function(e) {
-    var $targeted_popup_class = $(this).attr('data-popup-open');
-    $('[data-popup="' + $targeted_popup_class + '"]').css({ 'left' : '0px'}).children('.sch-card__modal--overlay').css({ 'position' : 'fixed', 'left' : '0px'}).fadeIn(350);
     e.preventDefault();
+    var $targeted_popup_class = $(this).attr('data-popup-open');
+    $('[data-popup="' + $targeted_popup_class + '"]').css({ 'left' : '0px'}).children(modalInner).toggleClass('fade-effect').removeClass('modal-close').addClass('modal-open');
   });
 
   $('[data-popup-close]').on('click', function(e) {
-    var $targeted_popup_class = $(this).attr('data-popup-close');
-    $('[data-popup="' + $targeted_popup_class + '"]').fadeOut(350);
     e.preventDefault();
+    var $targeted_popup_class = $(this).attr('data-popup-close');
+    $('[data-popup="' + $targeted_popup_class + '"]').css({ 'left' : '-9999px'}).children(modalInner).toggleClass('fade-effect').removeClass('modal-open').addClass('modal-close');
   });
-});
+};
+
+modalToggle('.sch-card__modal', '.sch-card__modal--overlay');
+
