@@ -7,7 +7,7 @@ file-name: murrayhill
 primary-color: rgb(0, 0, 0)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/mhms/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/mhms-art-class-group.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-mhms-xs.png
 
 administrator: Rick Wilson

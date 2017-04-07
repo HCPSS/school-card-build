@@ -7,7 +7,7 @@ file-name: mountview
 primary-color: rgb(153, 102, 153)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/mvms/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/mvms-students-computer-lab.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-mvms-xs.png
 
 administrator: Allen Cosentino

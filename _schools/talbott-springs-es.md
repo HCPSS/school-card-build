@@ -7,7 +7,7 @@ file-name: talbottsprings
 primary-color: rgb(153, 0, 0)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/tses/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/2016-04-06-tses-salad-fruit-bar-4984.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-tses-xs.png
 
 administrator: Nancy Thompson

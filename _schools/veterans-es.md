@@ -7,7 +7,7 @@ file-name: veterans
 primary-color: rgb(0, 51, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/ves/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/ves-student-choir.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-ves-xs.png
 
 administrator: Robert Bruce

@@ -7,7 +7,7 @@ file-name: pointersrun
 primary-color: rgb(0, 102, 51)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/pres/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/pres-teacher-classroom-group-instruction.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-pres-xs.png
 
 administrator: Lenore Schiff

@@ -7,7 +7,7 @@ file-name: thomasviaduct
 primary-color: rgb(0, 102, 153)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/tvms/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/tvms-band-performance.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-tvms-xs.png
 
 administrator: Shiney Ann John

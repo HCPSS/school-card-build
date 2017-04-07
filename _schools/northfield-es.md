@@ -7,7 +7,7 @@ file-name: northfield
 primary-color: rgb(0, 0, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/nes/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/nes-student-orchestra-rehearsal.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-nes-xs.png
 
 administrator: Tiffany Tresler

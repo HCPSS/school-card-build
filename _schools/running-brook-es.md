@@ -7,7 +7,7 @@ file-name: runningbrook
 primary-color: rgb(87, 60, 103)
 level: es
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/rbes-dress-success.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2015/12/rbes-google-expeditions.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-rbes-xs.png
 
 administrator: Troy Todd

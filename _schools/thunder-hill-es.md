@@ -7,7 +7,7 @@ file-name: thunderhill
 primary-color: rgb(0, 102, 153)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/thes/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2015/06/thunder-hill-steam.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-thes-xs.png
 
 administrator: Martha Bowen

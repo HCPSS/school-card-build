@@ -7,7 +7,7 @@ file-name: wildelake
 primary-color: rgb(0,51,153)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/wlms/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/wlms-students-science-class.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-wlms-xs.png
 
 administrator: Anne Swartz

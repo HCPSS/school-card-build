@@ -7,7 +7,7 @@ file-name: stevensforest
 primary-color: rgb(0, 51, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/sfes/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/sfes-students-teacher-library-books.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-sfes-xs.png
 
 administrator: Ernesto Diaz

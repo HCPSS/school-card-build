@@ -19,19 +19,19 @@ sidebar_view: no
       <fieldset role="radiogroup">
       <legend>School Level:</legend>
         <label for="all-schools">
-          <input type="radio" name="filter" id="all-schools" class="label-change" value="*" checked> <span style="margin-right:10px;">All Schools (76)</span>
+          <input type="radio" name="sch-lvl-filter" id="all-schools" class="label-change" value="*" checked> <span style="margin-right:10px;">All Schools (76)</span>
         </label>
         <label for="es">
-          <input type="radio" name="filter" id="es" class="label-change" value=".sch-card__es"> <span style="margin-right:10px;">Elementary (41)</span>
+          <input type="radio" name="sch-lvl-filter" id="es" class="label-change" value=".sch-card__es"> <span style="margin-right:10px;">Elementary (41)</span>
         </label>
         <label for="ms">
-          <input type="radio" name="filter" id="ms" class="label-change" value=".sch-card__ms"> <span style="margin-right:10px;">Middle (20)</span>
+          <input type="radio" name="sch-lvl-filter" id="ms" class="label-change" value=".sch-card__ms"> <span style="margin-right:10px;">Middle (20)</span>
         </label>
         <label for="hs">
-          <input type="radio" name="filter" id="hs" class="label-change" value=".sch-card__hs"> <span style="margin-right:10px;">High (12)</span>
+          <input type="radio" name="sch-lvl-filter" id="hs" class="label-change" value=".sch-card__hs"> <span style="margin-right:10px;">High (12)</span>
         </label>
         <label for="ed-center">
-          <input type="radio" name="filter" id="ed-center" class="label-change" value=".sch-card__ec"> <span style="margin-right:10px;">Education Center&nbsp;(3)&nbsp;</span>
+          <input type="radio" name="sch-lvl-filter" id="ed-center" class="label-change" value=".sch-card__ec"> <span style="margin-right:10px;">Education Center&nbsp;(3)&nbsp;</span>
         </label>
       </fieldset>
     </div>
@@ -65,6 +65,8 @@ sidebar_view: no
       <input name="cardsearch" type="search" id="cardsearchinput" placeholder="Search for a school">
     </form>
   </section>
+
+  <p><a href="#" id="clear-labels">Clear filters</a></p>
 
   <section aria-labelledby="md-awards" role="region">
     <strong id="md-awards">Maryland Awards</strong>
@@ -112,47 +114,47 @@ sidebar_view: no
   <section aria-labelledby="natl-awards" role="region">
   <strong id="natl-awards">Location</strong>
     <div class="sch-card__categories-container-labels">
-      <label for="clarksville">    
-        <input type="checkbox" name="filter" id="clarksville" class="label-change" value=".sch-card__clarksville"> Clarksville<br />
+      <label for="clarksville">
+        <input type="radio" name="filter" id="clarksville" class="label-change" value=".sch-card__clarksville"> Clarksville<br />
       </label>
       <label for="columbia">  
-        <input type="checkbox" name="filter" id="columbia" class="label-change" value=".sch-card__columbia"> Columbia<br />
+        <input type="radio" name="filter" id="columbia" class="label-change" value=".sch-card__columbia"> Columbia<br />
       </label>
       <label for="dayton">  
-        <input type="checkbox" name="filter" id="dayton" class="label-change" value=".sch-card__dayton"> Dayton<br />
+        <input type="radio" name="filter" id="dayton" class="label-change" value=".sch-card__dayton"> Dayton<br />
       </label>
       <label for="ellicott-city">  
-        <input type="checkbox" name="filter" id="ellicott-city" class="label-change" value=".sch-card__ellicottcity"> Ellicott City<br />
+        <input type="radio" name="filter" id="ellicott-city" class="label-change" value=".sch-card__ellicottcity"> Ellicott City<br />
       </label> 
       <label for="elkridge">  
-        <input type="checkbox" name="filter" id="elkridge" class="label-change" value=".sch-card__elkridge"> Elkridge<br />
+        <input type="radio" name="filter" id="elkridge" class="label-change" value=".sch-card__elkridge"> Elkridge<br />
       </label>        
       <label for="fulton">  
-        <input type="checkbox" name="filter" id="fulton" class="label-change" value=".sch-card__fulton"> Fulton<br />
+        <input type="radio" name="filter" id="fulton" class="label-change" value=".sch-card__fulton"> Fulton<br />
       </label>  
       <label for="glenelg">  
-        <input type="checkbox" name="filter" id="glenelg" class="label-change" value=".sch-card__glenelg"> Glenelg<br />
+        <input type="radio" name="filter" id="glenelg" class="label-change" value=".sch-card__glenelg"> Glenelg<br />
       </label>  
       <label for="glenwood">  
-        <input type="checkbox" name="filter" id="glenwood" class="label-change" value=".sch-card__glenwood"> Glenwood<br />
+        <input type="radio" name="filter" id="glenwood" class="label-change" value=".sch-card__glenwood"> Glenwood<br />
       </label>  
       <label for="hanover">  
-        <input type="checkbox" name="filter" id="hanover" class="label-change" value=".sch-card__hanover"> Hanover<br />
+        <input type="radio" name="filter" id="hanover" class="label-change" value=".sch-card__hanover"> Hanover<br />
       </label>  
       <label for="jessup">  
-        <input type="checkbox" name="filter" id="jessup" class="label-change" value=".sch-card__jessup"> Jessup<br />
+        <input type="radio" name="filter" id="jessup" class="label-change" value=".sch-card__jessup"> Jessup<br />
       </label>   
       <label for="laurel">  
-        <input type="checkbox" name="filter" id="laurel" class="label-change" value=".sch-card__laurel"> Laurel<br />
+        <input type="radio" name="filter" id="laurel" class="label-change" value=".sch-card__laurel"> Laurel<br />
       </label>
       <label for="marriottsville">  
-        <input type="checkbox" name="filter" id="marriottsville" class="label-change" value=".sch-card__marriottsville"> Marriottsville<br />
+        <input type="radio" name="filter" id="marriottsville" class="label-change" value=".sch-card__marriottsville"> Marriottsville<br />
       </label>      
       <label for="west-friendship">  
-        <input type="checkbox" name="filter" id="west-friendship" class="label-change" value=".sch-card__westfriendship"> West Friendship<br />
+        <input type="radio" name="filter" id="west-friendship" class="label-change" value=".sch-card__westfriendship"> West Friendship<br />
       </label> 
       <label for="woodbine">  
-        <input type="checkbox" name="filter" id="woodbine" class="label-change" value=".sch-card__woodbine"> Woodbine<br />
+        <input type="radio" name="filter" id="woodbine" class="label-change" value=".sch-card__woodbine"> Woodbine<br />
       </label>
     </div>
   </section>  
@@ -178,7 +180,7 @@ sidebar_view: no
       </div>
 
       <section class="sch-card__modal" data-popup="{{ school.acronym }}">
-        <div class="close" data-popup-close="{{ school.acronym }}"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="{{ school.acronym }}"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>{{ school.title }}</h2>
@@ -251,6 +253,7 @@ sidebar_view: no
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="{{ school.acronym }}">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>

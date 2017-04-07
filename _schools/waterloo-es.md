@@ -7,7 +7,7 @@ file-name: waterloo
 primary-color: rgb(153, 0, 0)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/wates/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/wates-students-activity-early-childhood.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-wates-xs.png
 
 administrator: Sean Martin

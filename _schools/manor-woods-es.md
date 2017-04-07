@@ -7,7 +7,7 @@ file-name: manorwoods
 primary-color: rgb(153, 0, 0)
 level: es
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/mwms-band-class.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2016/12/mwes-blue-ribbon-school-award.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-mwes-xs.png
 
 administrator: James Weisner

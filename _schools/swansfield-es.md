@@ -7,7 +7,7 @@ file-name: swansfield
 primary-color: rgb(0, 51, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/ses/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/ses-student-computer-lab.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-ses-xs.png
 
 administrator: Maisha Strong

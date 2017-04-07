@@ -7,7 +7,7 @@ file-name: lakeelkhorn
 primary-color: rgb(0,0,0)
 level: ms
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/lems-students-tablet.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/lkms-students-running-club.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-lems-xs.png
 
 administrator: Martin Vandenberge

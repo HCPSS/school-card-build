@@ -431,19 +431,19 @@
       <fieldset role="radiogroup">
       <legend>School Level:</legend>
         <label for="all-schools">
-          <input type="radio" name="filter" id="all-schools" class="label-change" value="*" checked> <span style="margin-right:10px;">All Schools (76)</span>
+          <input type="radio" name="sch-lvl-filter" id="all-schools" class="label-change" value="*" checked> <span style="margin-right:10px;">All Schools (76)</span>
         </label>
         <label for="es">
-          <input type="radio" name="filter" id="es" class="label-change" value=".sch-card__es"> <span style="margin-right:10px;">Elementary (41)</span>
+          <input type="radio" name="sch-lvl-filter" id="es" class="label-change" value=".sch-card__es"> <span style="margin-right:10px;">Elementary (41)</span>
         </label>
         <label for="ms">
-          <input type="radio" name="filter" id="ms" class="label-change" value=".sch-card__ms"> <span style="margin-right:10px;">Middle (20)</span>
+          <input type="radio" name="sch-lvl-filter" id="ms" class="label-change" value=".sch-card__ms"> <span style="margin-right:10px;">Middle (20)</span>
         </label>
         <label for="hs">
-          <input type="radio" name="filter" id="hs" class="label-change" value=".sch-card__hs"> <span style="margin-right:10px;">High (12)</span>
+          <input type="radio" name="sch-lvl-filter" id="hs" class="label-change" value=".sch-card__hs"> <span style="margin-right:10px;">High (12)</span>
         </label>
         <label for="ed-center">
-          <input type="radio" name="filter" id="ed-center" class="label-change" value=".sch-card__ec"> <span style="margin-right:10px;">Education Center&nbsp;(3)&nbsp;</span>
+          <input type="radio" name="sch-lvl-filter" id="ed-center" class="label-change" value=".sch-card__ec"> <span style="margin-right:10px;">Education Center&nbsp;(3)&nbsp;</span>
         </label>
       </fieldset>
     </div>
@@ -477,6 +477,8 @@
       <input name="cardsearch" type="search" id="cardsearchinput" placeholder="Search for a school">
     </form>
   </section>
+
+  <p><a href="#" id="clear-labels">Clear filters</a></p>
 
   <section aria-labelledby="md-awards" role="region">
     <strong id="md-awards">Maryland Awards</strong>
@@ -524,47 +526,47 @@
   <section aria-labelledby="natl-awards" role="region">
   <strong id="natl-awards">Location</strong>
     <div class="sch-card__categories-container-labels">
-      <label for="clarksville">    
-        <input type="checkbox" name="filter" id="clarksville" class="label-change" value=".sch-card__clarksville"> Clarksville<br />
+      <label for="clarksville">
+        <input type="radio" name="filter" id="clarksville" class="label-change" value=".sch-card__clarksville"> Clarksville<br />
       </label>
       <label for="columbia">  
-        <input type="checkbox" name="filter" id="columbia" class="label-change" value=".sch-card__columbia"> Columbia<br />
+        <input type="radio" name="filter" id="columbia" class="label-change" value=".sch-card__columbia"> Columbia<br />
       </label>
       <label for="dayton">  
-        <input type="checkbox" name="filter" id="dayton" class="label-change" value=".sch-card__dayton"> Dayton<br />
+        <input type="radio" name="filter" id="dayton" class="label-change" value=".sch-card__dayton"> Dayton<br />
       </label>
       <label for="ellicott-city">  
-        <input type="checkbox" name="filter" id="ellicott-city" class="label-change" value=".sch-card__ellicottcity"> Ellicott City<br />
+        <input type="radio" name="filter" id="ellicott-city" class="label-change" value=".sch-card__ellicottcity"> Ellicott City<br />
       </label> 
       <label for="elkridge">  
-        <input type="checkbox" name="filter" id="elkridge" class="label-change" value=".sch-card__elkridge"> Elkridge<br />
+        <input type="radio" name="filter" id="elkridge" class="label-change" value=".sch-card__elkridge"> Elkridge<br />
       </label>        
       <label for="fulton">  
-        <input type="checkbox" name="filter" id="fulton" class="label-change" value=".sch-card__fulton"> Fulton<br />
+        <input type="radio" name="filter" id="fulton" class="label-change" value=".sch-card__fulton"> Fulton<br />
       </label>  
       <label for="glenelg">  
-        <input type="checkbox" name="filter" id="glenelg" class="label-change" value=".sch-card__glenelg"> Glenelg<br />
+        <input type="radio" name="filter" id="glenelg" class="label-change" value=".sch-card__glenelg"> Glenelg<br />
       </label>  
       <label for="glenwood">  
-        <input type="checkbox" name="filter" id="glenwood" class="label-change" value=".sch-card__glenwood"> Glenwood<br />
+        <input type="radio" name="filter" id="glenwood" class="label-change" value=".sch-card__glenwood"> Glenwood<br />
       </label>  
       <label for="hanover">  
-        <input type="checkbox" name="filter" id="hanover" class="label-change" value=".sch-card__hanover"> Hanover<br />
+        <input type="radio" name="filter" id="hanover" class="label-change" value=".sch-card__hanover"> Hanover<br />
       </label>  
       <label for="jessup">  
-        <input type="checkbox" name="filter" id="jessup" class="label-change" value=".sch-card__jessup"> Jessup<br />
+        <input type="radio" name="filter" id="jessup" class="label-change" value=".sch-card__jessup"> Jessup<br />
       </label>   
       <label for="laurel">  
-        <input type="checkbox" name="filter" id="laurel" class="label-change" value=".sch-card__laurel"> Laurel<br />
+        <input type="radio" name="filter" id="laurel" class="label-change" value=".sch-card__laurel"> Laurel<br />
       </label>
       <label for="marriottsville">  
-        <input type="checkbox" name="filter" id="marriottsville" class="label-change" value=".sch-card__marriottsville"> Marriottsville<br />
+        <input type="radio" name="filter" id="marriottsville" class="label-change" value=".sch-card__marriottsville"> Marriottsville<br />
       </label>      
       <label for="west-friendship">  
-        <input type="checkbox" name="filter" id="west-friendship" class="label-change" value=".sch-card__westfriendship"> West Friendship<br />
+        <input type="radio" name="filter" id="west-friendship" class="label-change" value=".sch-card__westfriendship"> West Friendship<br />
       </label> 
       <label for="woodbine">  
-        <input type="checkbox" name="filter" id="woodbine" class="label-change" value=".sch-card__woodbine"> Woodbine<br />
+        <input type="radio" name="filter" id="woodbine" class="label-change" value=".sch-card__woodbine"> Woodbine<br />
       </label>
     </div>
   </section>  
@@ -590,7 +592,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="arl">
-        <div class="close" data-popup-close="arl"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="arl"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Applications and Research Lab</h2>
@@ -629,6 +631,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="arl">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -649,7 +652,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="aes">
-        <div class="close" data-popup-close="aes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="aes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Atholton Elementary</h2>
@@ -706,6 +709,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="aes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -726,7 +730,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="ahs">
-        <div class="close" data-popup-close="ahs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="ahs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Atholton High</h2>
@@ -779,6 +783,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="ahs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -799,7 +804,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="bses">
-        <div class="close" data-popup-close="bses"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="bses"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Bellows Spring Elementary</h2>
@@ -852,6 +857,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="bses">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -872,7 +878,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="bbes">
-        <div class="close" data-popup-close="bbes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="bbes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Bollman Bridge Elementary</h2>
@@ -933,6 +939,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="bbes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -953,7 +960,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="bbms">
-        <div class="close" data-popup-close="bbms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="bbms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Bonnie Branch Middle</h2>
@@ -1006,6 +1013,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="bbms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1026,7 +1034,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="bwes">
-        <div class="close" data-popup-close="bwes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="bwes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Bryant Woods Elementary</h2>
@@ -1083,6 +1091,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="bwes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1103,7 +1112,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="bmms">
-        <div class="close" data-popup-close="bmms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="bmms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Burleigh Manor Middle</h2>
@@ -1164,6 +1173,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="bmms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1184,7 +1194,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="bpes">
-        <div class="close" data-popup-close="bpes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="bpes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Bushy Park Elementary</h2>
@@ -1237,6 +1247,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="bpes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1257,7 +1268,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="cls">
-        <div class="close" data-popup-close="cls"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="cls"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Cedar Lane School</h2>
@@ -1300,6 +1311,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="cls">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1320,7 +1332,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="chs">
-        <div class="close" data-popup-close="chs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="chs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Centennial High</h2>
@@ -1377,6 +1389,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="chs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1397,7 +1410,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="cles">
-        <div class="close" data-popup-close="cles"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="cles"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Centennial Lane Elementary</h2>
@@ -1454,6 +1467,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="cles">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1474,7 +1488,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="ces">
-        <div class="close" data-popup-close="ces"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="ces"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Clarksville Elementary</h2>
@@ -1531,6 +1545,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="ces">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1551,7 +1566,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="cms">
-        <div class="close" data-popup-close="cms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="cms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Clarksville Middle</h2>
@@ -1604,6 +1619,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="cms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1624,7 +1640,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="cces">
-        <div class="close" data-popup-close="cces"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="cces"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Clemens Crossing Elementary</h2>
@@ -1677,6 +1693,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="cces">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1697,7 +1714,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="cres">
-        <div class="close" data-popup-close="cres"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="cres"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Cradlerock Elementary</h2>
@@ -1750,6 +1767,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="cres">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1770,7 +1788,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="does">
-        <div class="close" data-popup-close="does"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="does"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Dayton Oaks Elementary</h2>
@@ -1819,6 +1837,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="does">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1839,7 +1858,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="dres">
-        <div class="close" data-popup-close="dres"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="dres"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Deep Run Elementary</h2>
@@ -1892,6 +1911,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="dres">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1912,7 +1932,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="dles">
-        <div class="close" data-popup-close="dles"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="dles"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Ducketts Lane Elementary</h2>
@@ -1965,6 +1985,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="dles">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -1985,7 +2006,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="dms">
-        <div class="close" data-popup-close="dms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="dms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Dunloggin Middle</h2>
@@ -2042,6 +2063,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="dms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2062,7 +2084,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="ees">
-        <div class="close" data-popup-close="ees"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="ees"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Elkridge Elemetary</h2>
@@ -2111,6 +2133,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="ees">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2131,7 +2154,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="elms">
-        <div class="close" data-popup-close="elms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="elms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Elkridge Landing Middle</h2>
@@ -2180,6 +2203,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="elms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2200,7 +2224,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="emms">
-        <div class="close" data-popup-close="emms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="emms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Ellicott Mills Middle</h2>
@@ -2253,6 +2277,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="emms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2273,7 +2298,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="fqms">
-        <div class="close" data-popup-close="fqms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="fqms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Folly Quarter Middle</h2>
@@ -2334,6 +2359,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="fqms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2354,7 +2380,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="fres">
-        <div class="close" data-popup-close="fres"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="fres"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Forest Ridge Elementary</h2>
@@ -2411,6 +2437,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="fres">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2431,7 +2458,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="fes">
-        <div class="close" data-popup-close="fes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="fes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Fulton Elementary</h2>
@@ -2484,6 +2511,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="fes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2504,7 +2532,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="ghs">
-        <div class="close" data-popup-close="ghs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="ghs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Glenelg High</h2>
@@ -2547,6 +2575,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="ghs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2567,7 +2596,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="gms">
-        <div class="close" data-popup-close="gms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="gms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Glenwood Middle</h2>
@@ -2620,6 +2649,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="gms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2640,7 +2670,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="gces">
-        <div class="close" data-popup-close="gces"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="gces"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Gorman Crossing Elementary</h2>
@@ -2697,6 +2727,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="gces">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2717,7 +2748,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="ges">
-        <div class="close" data-popup-close="ges"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="ges"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Guilford Elementary</h2>
@@ -2774,6 +2805,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="ges">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2794,7 +2826,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="hes">
-        <div class="close" data-popup-close="hes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="hes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Hammond Elementary</h2>
@@ -2847,6 +2879,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="hes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2867,7 +2900,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="hahs">
-        <div class="close" data-popup-close="hahs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="hahs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Hammond High</h2>
@@ -2916,6 +2949,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="hahs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -2936,7 +2970,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="hms">
-        <div class="close" data-popup-close="hms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="hms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Hammond Middle</h2>
@@ -2997,6 +3031,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="hms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -3017,7 +3052,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="hcms">
-        <div class="close" data-popup-close="hcms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="hcms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Harper’s Choice Middle</h2>
@@ -3066,6 +3101,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="hcms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -3086,7 +3122,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="hses">
-        <div class="close" data-popup-close="hses"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="hses"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Hollifield Station Elementary</h2>
@@ -3135,6 +3171,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="hses">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -3155,7 +3192,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="hc">
-        <div class="close" data-popup-close="hc"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="hc"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Homewood Center</h2>
@@ -3204,6 +3241,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="hc">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -3224,7 +3262,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="hohs">
-        <div class="close" data-popup-close="hohs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="hohs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Howard High</h2>
@@ -3281,6 +3319,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="hohs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -3301,7 +3340,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="ies">
-        <div class="close" data-popup-close="ies"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="ies"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Ilchester Elementary</h2>
@@ -3358,6 +3397,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="ies">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -3378,7 +3418,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="jhes">
-        <div class="close" data-popup-close="jhes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="jhes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Jeffers Hill Elementary</h2>
@@ -3431,13 +3471,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="jhes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__ms sch-card__columbia sch-card__healthy">
 
-      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2016/10/lems-students-tablet.jpg"></div>
+      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/lkms-students-running-club.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0,0,0);" class="ms-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/f/mrb/mascots/mascot-lems-xs.png" alt="Logo: Lake Elkhorn Middle mascot" />
@@ -3451,7 +3492,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="lems">
-        <div class="close" data-popup-close="lems"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="lems"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Lake Elkhorn Middle</h2>
@@ -3500,6 +3541,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="lems">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -3520,7 +3562,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="lwes">
-        <div class="close" data-popup-close="lwes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="lwes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Laurel Woods Elementary</h2>
@@ -3573,13 +3615,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="lwes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__ms sch-card__fulton sch-card__green sch-card__pbis sch-card__healthy sch-card__blue-ribbon">
 
-      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/lkms/header-kids.jpg"></div>
+      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/lkms-group-roar-students.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(102, 153, 102);" class="ms-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-lkms-xs.png" alt="Logo: Lime Kiln Middle mascot" />
@@ -3593,7 +3636,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="lkms">
-        <div class="close" data-popup-close="lkms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="lkms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Lime Kiln Middle</h2>
@@ -3654,6 +3697,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="lkms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -3674,7 +3718,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="les">
-        <div class="close" data-popup-close="les"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="les"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Lisbon Elementary</h2>
@@ -3723,6 +3767,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="les">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -3743,7 +3788,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="lrhs">
-        <div class="close" data-popup-close="lrhs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="lrhs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Long Reach High</h2>
@@ -3792,13 +3837,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="lrhs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__columbia sch-card__green sch-card__pbis sch-card__titlei sch-card__healthy sch-card__leed">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/loes/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/loes-students-robotics.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(153, 0, 0);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-lfes-xs.png" alt="Logo: Longfellow Elementary mascot" />
@@ -3812,7 +3858,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="loes">
-        <div class="close" data-popup-close="loes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="loes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Longfellow Elementary</h2>
@@ -3873,13 +3919,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="loes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__ellicottcity sch-card__green sch-card__pbis sch-card__healthy sch-card__blue-ribbon">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2016/10/mwms-band-class.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2016/12/mwes-blue-ribbon-school-award.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(153, 0, 0);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/f/mrb/mascots/mascot-mwes-xs.png" alt="Logo: Manor Woods Elementary mascot" />
@@ -3893,7 +3940,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="mwes">
-        <div class="close" data-popup-close="mwes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="mwes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Manor Woods Elementary</h2>
@@ -3954,6 +4001,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="mwes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -3974,7 +4022,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="mrhs">
-        <div class="close" data-popup-close="mrhs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="mrhs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Marriotts Ridge High</h2>
@@ -4023,6 +4071,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="mrhs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -4043,7 +4092,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="mwms">
-        <div class="close" data-popup-close="mwms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="mwms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Mayfield Woods Middle</h2>
@@ -4100,6 +4149,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="mwms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -4120,7 +4170,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="mhhs">
-        <div class="close" data-popup-close="mhhs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="mhhs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Mount Hebron High</h2>
@@ -4169,13 +4219,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="mhhs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__ms sch-card__marriottsville sch-card__green sch-card__pbis sch-card__healthy">
 
-      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/mvms/header-kids.jpg"></div>
+      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/mvms-students-computer-lab.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(153, 102, 153);" class="ms-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-mvms-xs.png" alt="Logo: Mount View Middle mascot" />
@@ -4189,7 +4240,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="mvms">
-        <div class="close" data-popup-close="mvms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="mvms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Mount View Middle</h2>
@@ -4246,13 +4297,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="mvms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__ms sch-card__laurel sch-card__healthy">
 
-      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/mhms/header-kids.jpg"></div>
+      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/mhms-art-class-group.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0, 0, 0);" class="ms-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-mhms-xs.png" alt="Logo: Murray Hill Middle mascot" />
@@ -4266,7 +4318,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="mhms">
-        <div class="close" data-popup-close="mhms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="mhms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Murray Hill Middle</h2>
@@ -4315,13 +4367,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="mhms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__ellicottcity sch-card__green sch-card__healthy sch-card__leed">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/nes/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/nes-student-orchestra-rehearsal.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0, 0, 102);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-nes-xs.png" alt="Logo: Northfield Elementary mascot" />
@@ -4335,7 +4388,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="nes">
-        <div class="close" data-popup-close="nes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="nes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Northfield Elementary</h2>
@@ -4392,6 +4445,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="nes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -4412,7 +4466,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="omhs">
-        <div class="close" data-popup-close="omhs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="omhs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Oakland Mills High</h2>
@@ -4461,13 +4515,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="omhs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__ms sch-card__columbia sch-card__pbis sch-card__healthy">
 
-      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/omms/header-kids.jpg"></div>
+      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2016/11/staff-focus-teresa-norman-student-laptop.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(153,0,0);" class="ms-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-omms-xs.png" alt="Logo: Oakland Mills Middle mascot" />
@@ -4481,7 +4536,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="omms">
-        <div class="close" data-popup-close="omms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="omms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Oakland Mills Middle</h2>
@@ -4534,6 +4589,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="omms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -4554,7 +4610,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="pms">
-        <div class="close" data-popup-close="pms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="pms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Patapsco Middle</h2>
@@ -4611,13 +4667,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="pms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__ms sch-card__jessup sch-card__green sch-card__pbis sch-card__healthy">
 
-      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/pvms/header-kids.jpg"></div>
+      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/pvms-students-art-project-group.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0,51,102);" class="ms-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-pvms-xs.png" alt="Logo: Patuxent Valley Middle mascot" />
@@ -4631,7 +4688,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="pvms">
-        <div class="close" data-popup-close="pvms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="pvms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Patuxent Valley Middle</h2>
@@ -4688,6 +4745,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="pvms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -4708,7 +4766,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="ples">
-        <div class="close" data-popup-close="ples"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="ples"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Phelps Luck Elementary</h2>
@@ -4755,13 +4813,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="ples">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__clarksville sch-card__green sch-card__healthy">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/pres/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/pres-teacher-classroom-group-instruction.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0, 102, 51);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-pres-xs.png" alt="Logo: Pointers Run Elementary mascot" />
@@ -4775,7 +4834,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="pres">
-        <div class="close" data-popup-close="pres"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="pres"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Pointers Run Elementary</h2>
@@ -4828,6 +4887,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="pres">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -4848,7 +4908,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="rhs">
-        <div class="close" data-popup-close="rhs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="rhs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Reservoir High</h2>
@@ -4897,6 +4957,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="rhs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -4917,7 +4978,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="rhhs">
-        <div class="close" data-popup-close="rhhs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="rhhs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>River Hill High</h2>
@@ -4974,6 +5035,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="rhhs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -4994,7 +5056,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="res">
-        <div class="close" data-popup-close="res"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="res"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Rockburn Elementary</h2>
@@ -5051,13 +5113,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="res">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__columbia sch-card__titlei sch-card__esm sch-card__healthy">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2016/10/rbes-dress-success.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2015/12/rbes-google-expeditions.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(87, 60, 103);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/f/mrb/mascots/mascot-rbes-xs.png" alt="Logo: Running Brook Elementary mascot" />
@@ -5071,7 +5134,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="rbes">
-        <div class="close" data-popup-close="rbes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="rbes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Running Brook Elementary</h2>
@@ -5120,13 +5183,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="rbes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__ellicottcity sch-card__green sch-card__pbis sch-card__healthy">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/sjles/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/sjles-student-group-hand-raised.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0, 51, 102);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-sjles-xs.png" alt="Logo: St. John’s Lane Elementary mascot" />
@@ -5140,7 +5204,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="sjles">
-        <div class="close" data-popup-close="sjles"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="sjles"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>St. John’s Lane Elementary</h2>
@@ -5197,13 +5261,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="sjles">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__columbia sch-card__green sch-card__pbis sch-card__titlei sch-card__esm sch-card__healthy sch-card__leed">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/sfes/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/sfes-students-teacher-library-books.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0, 51, 102);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-sfes-xs.png" alt="Logo: Stevens Forest Elementary mascot" />
@@ -5217,7 +5282,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="sfes">
-        <div class="close" data-popup-close="sfes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="sfes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Stevens Forest Elementary</h2>
@@ -5278,13 +5343,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="sfes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__columbia sch-card__green sch-card__pbis sch-card__titlei">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/ses/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/ses-student-computer-lab.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0, 51, 102);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-ses-xs.png" alt="Logo: Swansfield Elementary mascot" />
@@ -5298,7 +5364,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="ses">
-        <div class="close" data-popup-close="ses"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="ses"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Swansfield Elementary</h2>
@@ -5351,13 +5417,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="ses">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__columbia sch-card__green sch-card__pbis sch-card__titlei sch-card__esm sch-card__healthy">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/tses/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2016/04/2016-04-06-tses-salad-fruit-bar-4984.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(153, 0, 0);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-tses-xs.png" alt="Logo: Talbott Springs Elementary mascot" />
@@ -5371,7 +5438,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="tses">
-        <div class="close" data-popup-close="tses"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="tses"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Talbott Springs Elementary</h2>
@@ -5428,13 +5495,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="tses">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__ms sch-card__hanover sch-card__pbis sch-card__healthy sch-card__leed">
 
-      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/tvms/header-kids.jpg"></div>
+      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/tvms-band-performance.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0, 102, 153);" class="ms-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-tvms-xs.png" alt="Logo: Thomas Viaduct Middle mascot" />
@@ -5448,7 +5516,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="tvms">
-        <div class="close" data-popup-close="tvms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="tvms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Thomas Viaduct Middle</h2>
@@ -5505,13 +5573,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="tvms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__columbia sch-card__green sch-card__pbis sch-card__healthy sch-card__leed">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/thes/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2015/06/thunder-hill-steam.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0, 102, 153);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-thes-xs.png" alt="Logo: Thunder Hill Elementary mascot" />
@@ -5525,7 +5594,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="thes">
-        <div class="close" data-popup-close="thes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="thes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Thunder Hill Elementary</h2>
@@ -5586,6 +5655,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="thes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -5606,7 +5676,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="tres">
-        <div class="close" data-popup-close="tres"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="tres"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Triadelphia Ridge Elementary</h2>
@@ -5663,13 +5733,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="tres">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__ellicottcity sch-card__green sch-card__pbis sch-card__healthy">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/ves/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/ves-student-choir.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0, 51, 102);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-ves-xs.png" alt="Logo: Veterans Elementary mascot" />
@@ -5683,7 +5754,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="ves">
-        <div class="close" data-popup-close="ves"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="ves"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Veterans Elementary</h2>
@@ -5740,13 +5811,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="ves">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__columbia sch-card__pbis sch-card__healthy">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/wates/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/wates-students-activity-early-childhood.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(153, 0, 0);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-wates-xs.png" alt="Logo: Waterloo Elementary mascot" />
@@ -5760,7 +5832,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="wates">
-        <div class="close" data-popup-close="wates"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="wates"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Waterloo Elementary</h2>
@@ -5813,13 +5885,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="wates">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__es sch-card__ellicottcity sch-card__green sch-card__pbis sch-card__esm sch-card__healthy">
 
-      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/waves/header-kids.jpg"></div>
+      <div class="es-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/waverly-spelling-bee-students.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0, 102, 204);" class="es-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-waves-xs.png" alt="Logo: Waverly Elementary mascot" />
@@ -5833,7 +5906,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="waves">
-        <div class="close" data-popup-close="waves"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="waves"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Waverly Elementary</h2>
@@ -5890,6 +5963,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="waves">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -5910,7 +5984,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="wfes">
-        <div class="close" data-popup-close="wfes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="wfes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>West Friendship Elementary</h2>
@@ -5963,6 +6037,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="wfes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -5983,7 +6058,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="wlhs">
-        <div class="close" data-popup-close="wlhs"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="wlhs"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Wilde Lake High</h2>
@@ -6036,13 +6111,14 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="wlhs">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
   
   <div class="sch-card sch-card__ms sch-card__columbia sch-card__healthy">
 
-      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/mrb/wlms/header-kids.jpg"></div>
+      <div class="ms-lazy sch-card__bg-image" data-original="http://www.hcpss.org/wp-content/uploads/2017/04/wlms-students-science-class.jpg"></div>
 
       <div class="heading__no-reset--center">
           <img style="background-color: rgb(0,51,153);" class="ms-lazy sch-card__mascot-image" data-original="http://www.hcpss.org/mrb/mascots/mascot-wlms-xs.png" alt="Logo: Wilde Lake Middle mascot" />
@@ -6056,7 +6132,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="wlms">
-        <div class="close" data-popup-close="wlms"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="wlms"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Wilde Lake Middle</h2>
@@ -6105,6 +6181,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="wlms">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -6125,7 +6202,7 @@
       </div>
 
       <section class="sch-card__modal" data-popup="wes">
-        <div class="close" data-popup-close="wes"></div>
+        <div class="sch-card__modal--close-area" data-popup-close="wes"></div>
         <div class="sch-card__modal--overlay">
           <span class="sch-card__modal--overlay-inner">
           <h2>Worthington Elementary</h2>
@@ -6178,6 +6255,7 @@
             </div>
           </section>
           </span>
+          <p><a class="sch-card__modal--close-btn" href="#" data-popup-close="wes">Close <i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
         </div>
       </section>
   </div>
@@ -6213,9 +6291,10 @@ Learn more about the email and text alerts included within your HCPSS News subsc
 <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js?ver=4.7.3'></script>
 <script type='text/javascript' src='https://s3.amazonaws.com/hcpss.web.site/images/jquery.searcher.min.js?ver=4.7.3'></script>
 <script type='text/javascript' src='https://s3.amazonaws.com/hcpss.web.site/images/jquery.lazyload.min.js?ver=4.7.3'></script>
-<script type='text/javascript' src='cards.js'></script>
 <script type='text/javascript' src='https://s3.amazonaws.com/hcpss.web.site/images/mega-menu.min.js?ver=4.7.3'></script>
-<script type='text/javascript' src='https://s3.amazonaws.com/hcpss.web.site/images/hcpss-2016-11-11.min.js?ver=4.7.3'></script>
+<script type='text/javascript' src='main.js'></script>
+<script type='text/javascript' src='dev.js'></script>
+<script type='text/javascript' src='cards.js'></script>
 
 <script type="text/javascript">
 $(function() {

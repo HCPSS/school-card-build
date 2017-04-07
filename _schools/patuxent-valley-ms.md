@@ -7,7 +7,7 @@ file-name: patuxentvalley
 primary-color: rgb(0,51,102)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/pvms/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/pvms-students-art-project-group.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-pvms-xs.png
 
 administrator: Rick Robb

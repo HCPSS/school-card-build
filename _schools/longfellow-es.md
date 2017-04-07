@@ -7,7 +7,7 @@ file-name: longfellow
 primary-color: rgb(153, 0, 0)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/loes/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/loes-students-robotics.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-lfes-xs.png
 
 administrator: Laurel Marsh

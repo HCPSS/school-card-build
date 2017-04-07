@@ -7,7 +7,7 @@ file-name: oaklandmills
 primary-color: rgb(153,0,0)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/omms/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2016/11/staff-focus-teresa-norman-student-laptop.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-omms-xs.png
 
 administrator: Megan Chrobak

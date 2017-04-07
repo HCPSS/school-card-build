@@ -2479,7 +2479,6 @@ table th[class*="col-"] {
 }
 
 .sch-card__bg-image {
-  z-index: -1;
   height: 9.375em;
   background-size: cover;
   border-top-left-radius: 0.625em;
@@ -2487,7 +2486,6 @@ table th[class*="col-"] {
 }
 
 .sch-card__mascot-image {
-  z-index: -1;
   position: relative;
   width: 3.75em;
   height: 3.75em;
@@ -2581,11 +2579,19 @@ table th[class*="col-"] {
   }
 }
 
-.close {
+.sch-card__modal--close-area {
   position: fixed;
   height: 100%;
   width: 100%;
   background-color: rgba(68, 68, 68, 0.88);
+}
+
+.sch-card__modal--close-btn {
+  position: absolute;
+  left: 88%;
+  top: 0;
+  width: 80px;
+  margin-top: 20px;
 }
 
 @keyframes fade {

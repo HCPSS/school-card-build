@@ -7,7 +7,7 @@ file-name: waverly
 primary-color: rgb(0, 102, 204)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/waves/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/waverly-spelling-bee-students.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-waves-xs.png
 
 administrator: Kathy Jacobs
