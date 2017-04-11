@@ -571,7 +571,6 @@ fieldset {
 }
 
 .nav-main__mobile-container {
-  margin-top: 3.75em;
   padding: 0em;
 }
 
@@ -2262,11 +2261,11 @@ table th[class*="col-"] {
   cursor: pointer;
 }
 
-#sidebartoggler, #sch-card__modal--toggle {
+#sch-card__categories-sidebartoggler, #sch-card__modal--toggle {
   display: none;
 }
 
-#sidebartoggler:checked ~ .sch-card__categories {
+#sch-card__categories-sidebartoggler:checked ~ .sch-card__categories {
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -2275,60 +2274,60 @@ table th[class*="col-"] {
   box-shadow: -4px -5px 20px rgba(0, 0, 0, 0.2);
 }
 
-#sidebartoggler:checked ~ .sch-card__filters .toggle {
+#sch-card__categories-sidebartoggler:checked ~ .sch-card__filters .toggle {
   left: -1000px;
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1199px) {
-  #sidebartoggler:checked ~ #sch-carddata {
+  #sch-card__categories-sidebartoggler:checked ~ #sch-carddata {
     width: 71%;
     float: right;
   }
-  #sidebartoggler:checked ~ .sch-card__filter-box {
+  #sch-card__categories-sidebartoggler:checked ~ .sch-card__filter-box {
     width: 68.5%;
     float: right;
     margin-right: 12px;
   }
-  #sidebartoggler:checked ~ #sch-carddata .sch-card, #sidebartoggler:checked ~ #sch-carddata .social-media-card {
+  #sch-card__categories-sidebartoggler:checked ~ #sch-carddata .sch-card, #sch-card__categories-sidebartoggler:checked ~ #sch-carddata .social-media-card {
     height: 500px;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-  #sidebartoggler:checked ~ #sch-carddata {
+  #sch-card__categories-sidebartoggler:checked ~ #sch-carddata {
     width: 80%;
     float: right;
   }
-  #sidebartoggler:checked ~ .sch-card__filter-box {
+  #sch-card__categories-sidebartoggler:checked ~ .sch-card__filter-box {
     width: 75.8%;
     float: right;
     margin-right: 28px;
   }
-  #sidebartoggler:checked ~ #sch-carddata .sch-card, #sidebartoggler:checked ~ #sch-carddata .social-media-card {
+  #sch-card__categories-sidebartoggler:checked ~ #sch-carddata .sch-card, #sch-card__categories-sidebartoggler:checked ~ #sch-carddata .social-media-card {
     height: 32.5em;
   }
 }
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
-  #sidebartoggler:checked ~ #sch-carddata {
+  #sch-card__categories-sidebartoggler:checked ~ #sch-carddata {
     width: 93%;
     float: right;
   }
-  #sidebartoggler:checked ~ .sch-card__filter-box {
+  #sch-card__categories-sidebartoggler:checked ~ .sch-card__filter-box {
     width: 88%;
     float: right;
     margin-right: 33px;
   }
-  #sidebartoggler:checked ~ #sch-carddata .sch-card, #sidebartoggler:checked ~ #sch-carddata .social-media-card {
+  #sch-card__categories-sidebartoggler:checked ~ #sch-carddata .sch-card, #sch-card__categories-sidebartoggler:checked ~ #sch-carddata .social-media-card {
     height: 31.25em;
   }
 }
 
 @media only screen and (min-width: 1600px) {
-  #sidebartoggler:checked ~ #sch-carddata {
+  #sch-card__categories-sidebartoggler:checked ~ #sch-carddata {
     width: 100%;
   }
-  #sidebartoggler:checked ~ #sch-carddata .sch-card, #sidebartoggler:checked ~ #sch-carddata .social-media-card {
+  #sch-card__categories-sidebartoggler:checked ~ #sch-carddata .sch-card, #sch-card__categories-sidebartoggler:checked ~ #sch-carddata .social-media-card {
     height: 31.25em;
   }
 }
@@ -2401,11 +2400,6 @@ table th[class*="col-"] {
 
 .sch-card__categories section:nth-child(2) {
   margin-top: 3.125em;
-}
-
-.sch-card__categories label.sch-card__close-button {
-  float: left;
-  width: 100%;
 }
 
 .sch-card__categories fieldset legend {
@@ -2590,8 +2584,8 @@ table th[class*="col-"] {
   position: absolute;
   left: 88%;
   top: 0;
-  width: 80px;
-  margin-top: 20px;
+  width: 5em;
+  margin-top: 1.25em;
 }
 
 @keyframes fade {

@@ -11,13 +11,14 @@ var navToggle = function(clickElement) {
 
 navToggle('#accordion-mobile h3');
 
-var toggleAppear = function(labelClick) {
+var toggleAppear = function(labelClick, closeId, labelFor) {
   $(labelClick).click(function() {
-    $('.nav-main__mobile-close').html('<label for="nav-sidebartoggler"><p style="float: right;cursor:pointer;margin-right: 1em;">Close Main Menu <i class="fa fa-times-circle" aria-hidden="true"></i></p></label>');
+    $(closeId).html('<label for="' + labelFor + '"><p style="float: right;cursor:pointer;margin-right: 1em;">Close Menu <i class="fa fa-times-circle" aria-hidden="true"></i></p></label>');
   });
 }
 
-toggleAppear('#nav-main__mobile_toggle-button');
+toggleAppear('#nav-main__mobile_toggle-button', '#nav-main__mobile--close', 'nav-sidebartoggler');
+toggleAppear('#card-filter', '#sch-card__categories--close', 'sch-card__categories-sidebartoggler');
 
 $("nav:first").accessibleMegaMenu({
     /* prefix for generated unique id attributes, which are required 

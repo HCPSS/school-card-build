@@ -10,6 +10,15 @@ $("#sch-carddata").searcher({
   }
 });
 
+var clearChecked = function(clickElement, inputContainer, inputName) {
+  $(clickElement).on('click', function(e) {
+    e.preventDefault();
+    var $uncheckedItems = $(inputContainer + ' input[name="' + inputName + '"]:checked').prop("checked", false).val();
+    filterItems($uncheckedItems);
+  });
+}
+clearChecked('#clear-labels', '.sch-card__categories fieldset', 'filter');
+
 var filterItems = function() {
   var dataType = $(".sch-card__categories-container-labels input:checked").map(function(){ return this.value; }).get();
   var dataGroup = dataType.join("");
@@ -46,15 +55,6 @@ var filterResultPlacement = function() {
   }
 }
 $('input#sidebartoggler').change(filterResultPlacement);
-
-var clearForm = function(clickElement, inputContainer, inputName) {
-  $(clickElement).on('click', function(e) {
-    e.preventDefault();
-    $(inputContainer + ' input[name="' + inputName + '"]:checked').prop("checked", false);
-  });
-}
-
-clearForm('#clear-labels', '.sch-card__categories fieldset', 'filter');
 
 function scrollLoad() {
   setTimeout(function() { window.scrollBy(0, 1) }, 10);

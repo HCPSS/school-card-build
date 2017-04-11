@@ -260,7 +260,9 @@
 </div>
 
   <div class="nav-main__mobile">
-    <div class="nav-main__mobile-close"><label for="nav-sidebartoggler"><p style="float: right;cursor:pointer;margin-right: 1em;">Close Main Menu <i class="fa fa-times-circle" aria-hidden="true"></i></p></label></div>
+
+  <div class="contents nav-close" id="nav-main__mobile--close"></div>
+  
   <section class="nav-main__mobile-container">
 
   <div id="accordion-mobile">
@@ -422,7 +424,7 @@
 
 <p><a href="/schools/enrollment-reports/">View enrollment data →</a></p>
 
-<input type="checkbox" id="sidebartoggler">
+<input type="checkbox" id="sch-card__categories-sidebartoggler">
 
 <div class="sch-card__filter-box" aria-labelledy="card-filter" role="region">
 
@@ -450,7 +452,7 @@
   </section>
 
   <div id="container__filter-button">
-    <label class="toggle" for="sidebartoggler" tabindex="0" id="card-filter"><span class="btn__small--light"> <i class="fa fa-filter" aria-hidden="true"></i> More Filters</span></label>
+    <label class="toggle" for="sch-card__categories-sidebartoggler" tabindex="0" id="card-filter"><span class="btn__small--light"> <i class="fa fa-filter" aria-hidden="true"></i> More Filters</span></label>
   </div>
 
   <div style="font-size: 24px;" id="result-count"></div>
@@ -466,10 +468,9 @@
 <div class="sch-card__categories">
   <fieldset role="radiogroup">
   <legend>Categories:</legend>
-  <input type="checkbox" id="sidebartoggler">
-    <label for="sidebartoggler" class="sch-card__close-button">
-      <p style="float: right;cursor:pointer;">Close <i class="fa fa-times-circle" aria-hidden="true"></i></p>
-    </label>
+  <input type="checkbox" id="sch-card__categories-sidebartoggler">
+
+  <div class="contents nav-close" id="sch-card__categories--close"></div>
 
   <section>
     <form>
@@ -478,7 +479,9 @@
     </form>
   </section>
 
-  <p><a href="#" id="clear-labels">Clear filters</a></p>
+  <section>
+    <span><a href="#" id="clear-labels">Clear filters</a></span>
+  </section>
 
   <section aria-labelledby="md-awards" role="region">
     <strong id="md-awards">Maryland Awards</strong>
