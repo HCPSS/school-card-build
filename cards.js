@@ -35,46 +35,30 @@ var filterItems = function() {
     $(".sch-card").hide();
   }
 }
-
 $(".sch-card__categories-container-labels input:checkbox").change(filterItems);
 $(".sch-card__categories-container-labels input:radio").change(filterItems);
 
 // switches result placement on school cards page. This is based on when the sidebar with filters is shown
-
-var filterResultPlacement = function() {
-  if (window.matchMedia("(max-width: 600px)").matches) {
-    if (!($('input#sidebartoggler').is(':checked'))) {
-      $("#result-count").remove();
-      $("#container__filter-button").after('<div style="font-size: 24px;" id="result-count"></div>'); 
-    } else {
-      $("#result-count").remove();
-      $(".sch-card__categories #cardsearchinput").after('<div style="" id="result-count"></div>');
-    }
-  } else if (window.matchMedia("(min-width: 601px)").matches) {
-    $(".sch-card__categories #cardsearchinput #result-count").remove();
-  }
-}
-$('input#sidebartoggler').change(filterResultPlacement);
 
 function scrollLoad() {
   setTimeout(function() { window.scrollBy(0, 1) }, 10);
   setTimeout(function() { window.scrollBy(0, -1) }, 10);
 }
 
-var modalToggle = function(modalInner) {
-  $('[data-popup-open]').on('click', function(e) {
-    e.preventDefault();
-    var $targeted_popup_class = $(this).attr('data-popup-open');
-    $('[data-popup="' + $targeted_popup_class + '"]').css({ 'left' : '0px'}).children(modalInner).toggleClass('fade-effect').removeClass('modal-close').addClass('modal-open');
-  });
-
-  $('[data-popup-close]').on('click keypress', function(e) {
-    e.preventDefault();
-    var $targeted_popup_class = $(this).attr('data-popup-close');
-    if (a11yClick(e) === true || e.type == 'click') {
-      $('[data-popup="' + $targeted_popup_class + '"]').css({ 'left' : '-9999px'}).children(modalInner).toggleClass('fade-effect').removeClass('modal-open').addClass('modal-close');
+var filterPopout = function(clickElement, openElement, closeElement) {
+  $(clickElement).on('click', function() {
+    $(openElement).addClass('sch-card__categories--effect');
+    if (window.matchMedia("(max-width: 600px)").matches) {
+      $("#result-count").remove();
+      $(".sch-card__categories #cardsearchinput").after('<div style="" id="result-count"></div>');
     }
   });
-};
-
-modalToggle('.sch-card__modal--overlay');
+  $(closeElement).on('click', function() {
+    $(openElement).removeClass('sch-card__categories--effect');
+    if (window.matchMedia("(max-width: 600px)").matches) {
+      $("#result-count").remove();
+      $("#sch-container__filter-button").after('<div style="font-size: 24px;" id="result-count"></div>');
+    }
+  });
+}
+filterPopout('#sch-container__filter-button', '.sch-card__categories', '#sch-card__categories--close');

@@ -10,10 +10,7 @@ sidebar_view: no
 
 <p><a href="/schools/enrollment-reports/">View enrollment data →</a></p>
 
-<input type="checkbox" id="sch-card__categories-sidebartoggler">
-
 <div class="sch-card__filter-box" aria-labelledy="card-filter" role="region">
-
   <section class="sch-card__filter-box--sch-filters" role="region">
     <div class="sch-card__categories-container-labels">
       <fieldset role="radiogroup">
@@ -37,11 +34,12 @@ sidebar_view: no
     </div>
   </section>
 
-  <div id="container__filter-button">
-    <label class="toggle" for="sch-card__categories-sidebartoggler" tabindex="0" id="card-filter"><span class="btn__small--light"> <i class="fa fa-filter" aria-hidden="true"></i> More Filters</span></label>
+  <div id="sch-container__filter-button">
+
+    <span class="btn__small--light"> <i class="fa fa-filter" aria-hidden="true"></i> More Filters</span>
   </div>
 
-  <div style="font-size: 24px;" id="result-count"></div>
+  <div class="result-main" style="font-size: 24px;" id="result-count"></div>
 
 </div>
 
@@ -54,9 +52,10 @@ sidebar_view: no
 <div class="sch-card__categories">
   <fieldset role="radiogroup">
   <legend>Categories:</legend>
-  <input type="checkbox" id="sch-card__categories-sidebartoggler">
 
-  <div class="contents nav-close" id="sch-card__categories--close"></div>
+  <div class="contents nav-close" id="sch-card__categories--close">
+  	<p style="float: right;cursor:pointer;margin-right: 1em;">Close Menu <i class="fa fa-times-circle" aria-hidden="true"></i></p>
+  </div>
 
   <section>
     <form>
