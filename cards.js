@@ -57,7 +57,7 @@ var filterPopout = function(clickElement, openElement, closeElement) {
     $(openElement).removeClass('sch-card__categories--effect');
     if (window.matchMedia("(max-width: 600px)").matches) {
       $("#result-count").remove();
-      $("#sch-container__filter-button").after('<div style="font-size: 24px;" id="result-count"></div>');
+      $("#sch-container__filter-button").after('<div class="result-main" style="font-size: 24px;" id="result-count"></div>');
     }
   });
 }
