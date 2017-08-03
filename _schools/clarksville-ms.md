@@ -10,7 +10,7 @@ level: ms
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/cms-students-google-no-logos.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-cms-xs.png
 
-administrator: Joelle Miller
+administrator: Karim Shortridge
 phone: 410-313-7057
 fax: 410-313-5105
 address: 6535 South Trotter Road

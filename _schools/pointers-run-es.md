@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/pres-teacher-classroom-group-instruction.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-pres-xs.png
 
-administrator: Lenore Schiff
+administrator: Julie Schruefer
 phone: 410-313-7142
 fax: 410-313-7147
 address: 6600 South Trotter Road

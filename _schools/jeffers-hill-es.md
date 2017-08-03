@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2017/03/jhes-students-team-activity.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-jhes-xs.png
 
-administrator: Patricia Shifflett
+administrator: Maisha Strong
 phone: 410-313-6872
 fax: 410-313-6875
 address: 6001 Tamar Drive

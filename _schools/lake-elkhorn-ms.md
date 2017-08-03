@@ -10,7 +10,7 @@ level: ms
 bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/lkms-students-running-club.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-lems-xs.png
 
-administrator: Martin Vandenberge
+administrator: Lynnette Moore
 phone: 410-313-7600
 fax: 410-313-7633
 address: 6680 Cradlerock Way

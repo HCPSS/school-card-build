@@ -1,7 +1,7 @@
 ---
 layout: schools
 
-title: Elkridge Elemetary
+title: Elkridge Elementary
 acronym: ees
 file-name: elkridge
 primary-color: rgb(0, 102, 204)

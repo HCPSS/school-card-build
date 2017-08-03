@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/loes-students-robotics.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-lfes-xs.png
 
-administrator: Laurel Marsh
+administrator: Derek Anderson
 phone: 410-313-6879
 fax: 410-313-7106
 address: 5470 Hesperus Drive

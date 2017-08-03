@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/12/mwes-blue-ribbon-school-award.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-mwes-xs.png
 
-administrator: James Weisner
+administrator: Carol DeBord
 phone: 410-313-7165
 fax: 410-313-7170
 address: 11575 Frederick Road

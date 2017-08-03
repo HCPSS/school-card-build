@@ -62,3 +62,23 @@ var filterPopout = function(clickElement, openElement, closeElement) {
   });
 }
 filterPopout('#sch-container__filter-button', '.sch-card__categories', '#sch-card__categories--close');
+
+$(function() {
+  $('.es-lazy, .ms-lazy, .hs-lazy, .ec-lazy, img.sch-card__modal--overlay-map-lazy').show().lazyload({ effect : "fadeIn" });
+
+  $('.label-change').on('change', function() {
+    if($('.sch-card__hs') || ('.sch-card__es') || ('.sch-card__ms') || ('.sch-card__ec').prop('style').display == 'block') {
+      $('.hs-lazy, .es-lazy, .ms-lazy, .ec-lazy').show().lazyload({
+          event: "change"
+      });
+    }
+  });
+  $("#cardsearchinput").keyup(function() {
+    if($('.sch-card__hs') || ('.sch-card__es') || ('.sch-card__ms') || ('.sch-card__ec').prop('style').display == 'block') {
+      $('.hs-lazy, .es-lazy, .ms-lazy, .ec-lazy').show().lazyload({
+          event: "keyup"
+      });
+    }
+  });
+});
+

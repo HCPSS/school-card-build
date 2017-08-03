@@ -10,10 +10,10 @@ level: ms
 bg-image: http://www.hcpss.org/mrb/hms/header-kids.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-hms-xs.png
 
-administrator: Kerry Dufresne
+administrator: Aaron Dale, Ph.D
 phone: 410-880-5830
 fax: 410-880-5837
-address: 8110 Aladdin Drive
+address: 8100 Aladdin Drive
 town: Laurel
 zip: 20723
 hours: 8:05 a.m. – 2:50 p.m.

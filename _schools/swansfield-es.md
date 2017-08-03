@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/ses-student-computer-lab.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-ses-xs.png
 
-administrator: Maisha Strong
+administrator: Laurel Marsh
 phone: 410-313-6907
 fax: 410-313-6910
 address: 5610 Cedar Lane

@@ -27,9 +27,9 @@ msde-report: yes
 walk-area: no
 walk-area-url:
 
-green:
+green: yes
 green-url:
-green-year:
+green-year: 2017
 
 pbis: yes
 pbis-level: Gold

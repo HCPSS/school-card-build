@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>Elkridge Elemetary - HCPSS</title>
+<title>Elkridge Elementary - HCPSS</title>
 <link rel="canonical" href="http://www.hcpss.org/" />
 <link rel='shortlink' href='http://www.hcpss.org/' />
 
@@ -458,28 +458,6 @@ Learn more about the email and text alerts included within your HCPSS News subsc
 <script type='text/javascript' src='main.js'></script>
 <script type='text/javascript' src='dev.js'></script>
 <script type='text/javascript' src='cards.js'></script>
-
-<script type="text/javascript">
-$(function() {
-  $('.es-lazy, .ms-lazy, .hs-lazy, .ec-lazy, img.sch-card__modal--overlay-map-lazy').show().lazyload({ effect : "fadeIn" });
-
-  $('.label-change').on('change', function() {
-    if($('.sch-card__hs') || ('.sch-card__es') || ('.sch-card__ms') || ('.sch-card__ec').prop('style').display == 'block') {
-      $('.hs-lazy, .es-lazy, .ms-lazy, .ec-lazy').show().lazyload({
-          event: "change"
-      });
-    }
-  });
-  $("#cardsearchinput").keyup(function() {
-    if($('.sch-card__hs') || ('.sch-card__es') || ('.sch-card__ms') || ('.sch-card__ec').prop('style').display == 'block') {
-      $('.hs-lazy, .es-lazy, .ms-lazy, .ec-lazy').show().lazyload({
-          event: "keyup"
-      });
-    }
-  });
-});  
-  
-</script>
 
   </body>
 

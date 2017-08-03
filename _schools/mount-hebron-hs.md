@@ -10,7 +10,7 @@ level: hs
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/mhhs-theatre-arts-students.jpg
 mascot: http://mhhs.hcpss.org/sites/default/files/mouthebronhs.png
 
-administrator: Andrew Cockley
+administrator: Joelle Miller
 phone: 410-313-2880
 fax: 410-313-2543
 address: 9440 Old Frederick Road (Route 99)

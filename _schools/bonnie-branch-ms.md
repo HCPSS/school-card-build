@@ -10,7 +10,7 @@ level: ms
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/bbms-students-science-class.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-bbms-xs.png
 
-administrator: Cher Jones
+administrator: Andrew Cockley
 phone: 410-313-2580
 fax: 410-313-2586
 address: 4979 Ilchester Road
@@ -27,9 +27,9 @@ msde-report: yes
 walk-area: yes
 walk-area-url: bonnie-branch-ms-walk-area.pdf
 
-green:
+green: yes
 green-url:
-green-year:
+green-year: 2017
 
 pbis: yes
 pbis-level: Gold
