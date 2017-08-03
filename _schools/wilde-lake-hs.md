@@ -10,7 +10,7 @@ level: hs
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/wlhs-students-sporting-event.jpg
 mascot: http://wlhs.hcpss.org/sites/default/files/wilde-lake-hs-logo-circle_1.png
 
-administrator: James LeMon
+administrator: Rick Wilson
 phone: 410-313-6965
 fax: 410-313-6972
 address: 5460 Trumpeter Road

@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/mrb/tres/header-kids.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-tres-xs.png
 
-administrator: Lisa Smithson
+administrator: Tiffany Tresler
 phone: 410-313-2560
 fax: 410-313-2566
 address: 13400 Triadelphia Road

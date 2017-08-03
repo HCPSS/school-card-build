@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/nes-student-orchestra-rehearsal.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-nes-xs.png
 
-administrator: Tiffany Tresler
+administrator: Cathleen Lopez
 phone: 410-313-2806
 fax: 410-313-2810
 address: 9125 Northfield Road

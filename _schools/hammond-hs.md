@@ -10,7 +10,7 @@ level: hs
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/hahs-orchestra-students.jpg
 mascot: http://hahs.hcpss.org/sites/default/files/hammondhs.png
 
-administrator: Marcy Leonard
+administrator: John DiPaula
 phone: 410-313-7615
 fax: 410-313-7632
 address: 8800 Guilford Road

@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/cres-bioblitz-two-students.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-cres-xs.png
 
-administrator: Jason McCoy
+administrator: Jennifer Zinn
 phone: 410-313-7610
 fax: 410-313-7634
 address: 6700 Cradlerock Way
