@@ -14,33 +14,38 @@ sidebar_view: no
   <section class="sch-card__filter-box--sch-filters" role="region">
     <div class="sch-card__categories-container-labels">
       <fieldset role="radiogroup">
-      <legend>School Level:</legend>
+      <legend>School Level</legend>
         <label for="all-schools">
-          <input type="radio" name="sch-lvl-filter" id="all-schools" class="label-change" value="*" checked> <span style="margin-right:10px;">All Schools (76)</span>
+          <input type="radio" name="sch-lvl-filter" id="all-schools" class="label-change" value="*" checked=""> <span>All Schools (76)</span>
         </label>
         <label for="es">
-          <input type="radio" name="sch-lvl-filter" id="es" class="label-change" value=".sch-card__es"> <span style="margin-right:10px;">Elementary (41)</span>
+          <input type="radio" name="sch-lvl-filter" id="es" class="label-change" value=".sch-card__es"> <span>Elementary (41)</span>
         </label>
         <label for="ms">
-          <input type="radio" name="sch-lvl-filter" id="ms" class="label-change" value=".sch-card__ms"> <span style="margin-right:10px;">Middle (20)</span>
+          <input type="radio" name="sch-lvl-filter" id="ms" class="label-change" value=".sch-card__ms"> <span>Middle (20)</span>
         </label>
         <label for="hs">
-          <input type="radio" name="sch-lvl-filter" id="hs" class="label-change" value=".sch-card__hs"> <span style="margin-right:10px;">High (12)</span>
+          <input type="radio" name="sch-lvl-filter" id="hs" class="label-change" value=".sch-card__hs"> <span>High (12)</span>
         </label>
         <label for="ed-center">
-          <input type="radio" name="sch-lvl-filter" id="ed-center" class="label-change" value=".sch-card__ec"> <span style="margin-right:10px;">Education Center&nbsp;(3)&nbsp;</span>
+          <input type="radio" name="sch-lvl-filter" id="ed-center" class="label-change" value=".sch-card__ec"> <span>Education Center&nbsp;(3)&nbsp;</span>
         </label>
       </fieldset>
     </div>
   </section>
 
-  <div id="sch-container__filter-button">
-
-    <span class="btn__small--light"> <i class="fa fa-filter" aria-hidden="true"></i> More Filters</span>
-  </div>
-
+  <section class="contents smtb-mg">
+    <form>
+    <label for="cardsearchinput">Search:</label>
+      <span><i class="fa fa-search" aria-hidden="true"></i></span>
+      <input name="cardsearch" type="search" id="cardsearchinput" placeholder="Search for a school">
+    </form>
+    <div id="sch-container__filter-button">
+      <span class="btn__small--light"> <i class="fa fa-filter" aria-hidden="true"></i> More Filters</span>
+    </div>    
   <div class="result-main" style="font-size: 24px;" id="result-count"></div>
-
+  </section>
+  
 </div>
 
 <!--[if lt IE 9]>
@@ -56,13 +61,6 @@ sidebar_view: no
   <div class="contents nav-close" id="sch-card__categories--close">
   	<p style="float: right;cursor:pointer;margin-right: 1em;">Close Menu <i class="fa fa-times-circle" aria-hidden="true"></i></p>
   </div>
-
-  <section>
-    <form>
-    <label for="cardsearchinput">Search:</label>
-      <input name="cardsearch" type="search" id="cardsearchinput" placeholder="Search for a school">
-    </form>
-  </section>
 
   <section>
     <span><a href="#" id="clear-labels">Clear filters</a></span>
