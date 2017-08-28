@@ -7,7 +7,7 @@ file-name: clemenscrossing
 primary-color: rgb(9, 52, 92)
 level: es
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/09/field-day-cces.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2017/08/cces-students-hands-raised.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-cces-xs.png
 
 administrator: Ed Cosentino

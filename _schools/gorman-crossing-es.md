@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/gces-kinder-event.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-gces-xs.png
 
-administrator: Deborah Caldwell
+administrator: Deborah Gordon
 phone: 410-880-5900
 fax: 410-880-5902
 address: 9999 Winter Sun Road

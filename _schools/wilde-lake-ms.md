@@ -31,9 +31,9 @@ green:
 green-url:
 green-year:
 
-pbis:
-pbis-level:
-pbis-color:
+pbis: yes
+pbis-level: gold
+pbis-color: FECC6A
 
 blue: 
 blue-year:
