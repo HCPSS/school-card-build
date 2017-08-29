@@ -13,7 +13,7 @@ mascot: http://www.hcpss.org/f/mrb/mascots/mascot-gms-xs.png
 administrator: Robert Motley
 phone: 410-313-5520
 fax: 410-313-5534
-address: 2680 Route 97, 
+address: 2680 Route 97
 town: Glenwood
 zip: 21738
 hours: 7:40 a.m. – 2:25 p.m.

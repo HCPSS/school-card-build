@@ -33,7 +33,7 @@ green-year:
 
 pbis: yes
 pbis-level: Gold
-pbis-color: D7A03B
+pbis-color: FECC6A
 
 blue:
 blue-year:
