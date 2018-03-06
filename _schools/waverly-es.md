@@ -7,12 +7,12 @@ file-name: waverly
 primary-color: rgb(0, 102, 204)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/waves/header-kids.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/waves-students-playing-indoor-soccer.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-waves-xs.png
 
 administrator: Kathy Jacobs
 phone: 410-313-2819
-fax: 410-313-2834
+fax: 410-313-2824
 address: 10220 Wetherburn Road
 town: Ellicott City
 zip: 21042
@@ -34,16 +34,12 @@ green-url:
 green-year: 2011, 2015
 
 pbis: yes
-pbis-level: Gold
-pbis-color: D7A03B
+pbis-level: Silver
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Silver
 
 ---

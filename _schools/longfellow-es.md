@@ -7,10 +7,10 @@ file-name: longfellow
 primary-color: rgb(153, 0, 0)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/loes/header-kids.jpg
-mascot: http://www.hcpss.org/mrb/mascots/mascot-lfes-xs.png
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/loes-students-robotics.jpg
+mascot: http://loes.hcpss.org/sites/default/files/mascot-loes-xs.png
 
-administrator: Laurel Marsh
+administrator: Derek Anderson
 phone: 410-313-6879
 fax: 410-313-7106
 address: 5470 Hesperus Drive
@@ -34,22 +34,17 @@ green-url:
 green-year: 2009, 2014
 
 leed: yes
-leed-url:
+leed-url: http://www.hcpss.org/schools/leed-certified/
 leed-level: Silver
-leed-color: A6A6A9
 leed-year: 2016
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Gold
 
 ---

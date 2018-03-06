@@ -7,10 +7,10 @@ file-name: jeffershill
 primary-color: rgb(204, 0, 0)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/jhes/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/03/jhes-students-team-activity.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-jhes-xs.png
 
-administrator: Patricia Shifflett
+administrator: Maisha Strong
 phone: 410-313-6872
 fax: 410-313-6875
 address: 6001 Tamar Drive
@@ -33,15 +33,11 @@ green-year:
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Gold
 
 ---

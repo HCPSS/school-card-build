@@ -10,7 +10,7 @@ level: hs
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/rhs-cheerleaders-group-routine.jpg
 mascot: http://rhs.hcpss.org/sites/default/files/reserviorhs.png
 
-administrator: Pat Saunderson
+administrator: Nelda Sims
 phone: 410-888-8850
 fax: 410-888-8849
 address: 11550 Scaggsville Road
@@ -33,7 +33,6 @@ green-year: 2007, 2011, 2015
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: 
 blue-year: 
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard:
-healthy-howard-level:
- 
 ---

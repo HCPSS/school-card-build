@@ -7,10 +7,10 @@ file-name: murrayhill
 primary-color: rgb(0, 0, 0)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/mhms/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/mhms-art-class-group.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-mhms-xs.png
 
-administrator: Rick Wilson
+administrator: Lisa Smithson
 phone: 410-880-5897
 fax: 301-317-5048
 address: 9989 Winter Sun Road
@@ -33,7 +33,6 @@ green-year:
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: 
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Platinum
- 
 ---

@@ -41,7 +41,4 @@ blue-year: 2007
 nce: yes
 nce-year: 2013, 2015
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

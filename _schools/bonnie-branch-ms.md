@@ -7,10 +7,10 @@ file-name: bonniebranch
 primary-color: rgb(0,0,153)
 level: ms
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/bbms-students-science-class.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/bbms-students-standing-outside.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-bbms-xs.png
 
-administrator: Cher Jones
+administrator: Andrew Cockley
 phone: 410-313-2580
 fax: 410-313-2586
 address: 4979 Ilchester Road
@@ -27,13 +27,12 @@ msde-report: yes
 walk-area: yes
 walk-area-url: bonnie-branch-ms-walk-area.pdf
 
-green:
+green: yes
 green-url:
-green-year:
+green-year: 2017
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: 
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

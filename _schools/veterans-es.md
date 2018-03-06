@@ -7,7 +7,7 @@ file-name: veterans
 primary-color: rgb(0, 51, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/ves/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/ves-student-choir.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-ves-xs.png
 
 administrator: Robert Bruce
@@ -31,17 +31,13 @@ green: yes
 green-url:
 green-year: 2010, 2014
 
-pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis:
+pbis-level:
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Gold
 
 ---

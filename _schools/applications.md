@@ -41,7 +41,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard:
-healthy-howard-level:
-
 ---

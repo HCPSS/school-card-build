@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/cres-bioblitz-two-students.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-cres-xs.png
 
-administrator: Jason McCoy
+administrator: Jennifer Zinn
 phone: 410-313-7610
 fax: 410-313-7634
 address: 6700 Cradlerock Way
@@ -29,13 +29,12 @@ msde-report: yes
 walk-area: yes
 walk-area-url: cradlerock-es-walk-area.pdf
 
-green:
+green: yes
 green-url:
-green-year:
+green-year: 2016
 
-pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis:
+pbis-level:
 
 blue: 
 blue-year:  
@@ -43,7 +42,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

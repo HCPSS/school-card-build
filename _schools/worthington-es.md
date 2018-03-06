@@ -7,7 +7,7 @@ file-name: worthington
 primary-color: rgb(0, 153, 204)
 level: es
 
-bg-image: http://www.hcpss.org/f/mrb/wes/header-kids.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/wes-group-outside.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-wes-xs.png
 
 administrator: Kelli Jenkins
@@ -33,15 +33,11 @@ green-year:
 
 pbis: yes
 pbis-level: Gold
-pbis-color: D7A03B
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Gold
 
 ---

@@ -7,10 +7,10 @@ file-name: triadelphiaridge
 primary-color: rgb(0, 102, 51)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/tres/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2018/02/tres-group-library.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-tres-xs.png
 
-administrator: Lisa Smithson
+administrator: Tiffany Tresler
 phone: 410-313-2560
 fax: 410-313-2566
 address: 13400 Triadelphia Road
@@ -33,15 +33,11 @@ green-year: 2002, 2007, 2010, 2014
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Platinum
 
 ---

@@ -7,7 +7,7 @@ file-name: limekiln
 primary-color: rgb(102, 153, 102)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/lkms/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/lkms-group-roar-students.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-lkms-xs.png
 
 administrator: Lucy Lublin
@@ -29,11 +29,10 @@ walk-area-url: lime-kiln-ms-walk-area.pdf
 
 green: yes
 green-url:
-green-year: 2008, 2012
+green-year: 2008, 2012, 2016
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: yes 
 blue-year: 2010
@@ -41,7 +40,4 @@ blue-year: 2010
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Silver
- 
 ---

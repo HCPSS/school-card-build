@@ -7,7 +7,7 @@ file-name: phelpsluck
 primary-color: rgb(153, 0, 0)
 level: es
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/girls-on-the-run-ples.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2018/02/ples-students-group-outside.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-ples-xs.png
 
 administrator: Michelle Leader
@@ -35,22 +35,17 @@ green-url:
 green-year:
 
 leed: yes
-leed-url:
+leed-url: http://www.hcpss.org/schools/leed-certified/
 leed-level: Silver
-leed-color: A6A6A9
 leed-year: 2015
 
-pbis: 
-pbis-level: 
-pbis-color: 
+pbis: yes
+pbis-level: Silver
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard:
-healthy-howard-level:
 
 ---

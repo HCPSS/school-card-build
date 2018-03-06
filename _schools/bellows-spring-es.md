@@ -40,8 +40,5 @@ blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Platinum
  
 ---

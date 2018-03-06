@@ -7,7 +7,7 @@ file-name: stjohnslane
 primary-color: rgb(0, 51, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/sjles/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/sjles-student-group-hand-raised.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-sjles-xs.png
 
 administrator: Vicky Sarro
@@ -33,15 +33,11 @@ green-year: 2011, 2015
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Silver
 
 ---

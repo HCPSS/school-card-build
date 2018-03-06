@@ -10,7 +10,7 @@ level: ms
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/cms-students-google-no-logos.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-cms-xs.png
 
-administrator: Joelle Miller
+administrator: Karim Shortridge
 phone: 410-313-7057
 fax: 410-313-5105
 address: 6535 South Trotter Road
@@ -27,13 +27,12 @@ msde-report: yes
 walk-area: yes
 walk-area-url: clarksville-ms-walk-area.pdf
 
-green:
+green: yes
 green-url:
-green-year:
+green-year: 2016
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: yes
 blue-year: 2008 
@@ -41,7 +40,4 @@ blue-year: 2008
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Silver
- 
 ---

@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/does-sch-kids.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-does-xs.png
 
-administrator: Carol DeBord
+administrator: Nigel LaRoche
 phone: 410-313-1571
 fax: 410-313-1572
 address: 4691 Ten Oaks Road
@@ -33,7 +33,6 @@ green-year: 2009, 2014
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: 
 blue-year:  
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard:
-healthy-howard-level:
- 
 ---

@@ -7,7 +7,7 @@ file-name: rockburn
 primary-color: rgb(51, 153, 0)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/res/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2018/02/res-students-classroom-group.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-res-xs.png
 
 administrator: Lauren Bauer
@@ -31,17 +31,13 @@ green: yes
 green-url:
 green-year: 2010, 2014
 
-pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis:
+pbis-level:
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Gold
 
 ---

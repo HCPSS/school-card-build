@@ -7,7 +7,7 @@ file-name: thomasviaduct
 primary-color: rgb(0, 102, 153)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/tvms/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/tvms-band-performance.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-tvms-xs.png
 
 administrator: Shiney Ann John
@@ -32,14 +32,12 @@ green-url:
 green-year:
 
 leed: yes
-leed-url:
+leed-url: http://www.hcpss.org/schools/leed-certified/
 leed-level: Silver
-leed-color: A6A6A9
 leed-year: 2015
 
 pbis: yes
-pbis-level: Bronze
-pbis-color: 9f6e14
+pbis-level: Silver
 
 blue: 
 blue-year:
@@ -47,7 +45,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

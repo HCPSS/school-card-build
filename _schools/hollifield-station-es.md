@@ -7,7 +7,7 @@ file-name: hollifield-station
 primary-color: rgb(0, 102, 51)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/hses/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/03/hses-student-safety-activity.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-hses-xs.png
 
 administrator: Lisa Booth
@@ -29,11 +29,10 @@ walk-area-url: hollifield-station-es-walk-area.pdf
 
 green: yes
 green-url:
-green-year: 2009, 2013
+green-year: 2009, 2013, 2017
 
-pbis:
-pbis-level: 
-pbis-color:
+pbis: yes
+pbis-level: Gold
 
 blue:
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard:
-healthy-howard-level:
- 
 ---

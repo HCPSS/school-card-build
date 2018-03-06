@@ -7,10 +7,10 @@ file-name: ilchester
 primary-color: rgb(0, 102, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/ies/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/03/ies-students-group-photo.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-ies-xs.png
 
-administrator: Joy Byrd-Butler
+administrator: Dr. Joy Smith
 phone: 410-313-2524
 fax: 410-313-2527
 address: 4981 Ilchester Road
@@ -32,16 +32,12 @@ green-url:
 green-year: 2010, 2014
 
 pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis-level: Bronze
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Silver
 
 ---

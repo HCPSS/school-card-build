@@ -31,17 +31,13 @@ green:
 green-url:
 green-year:
 
-pbis: 
-pbis-level: 
-pbis-color: 
+pbis: yes
+pbis-level: Gold
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Gold
 
 ---

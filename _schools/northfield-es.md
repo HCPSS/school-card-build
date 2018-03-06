@@ -7,10 +7,10 @@ file-name: northfield
 primary-color: rgb(0, 0, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/nes/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/nes-student-orchestra-rehearsal.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-nes-xs.png
 
-administrator: Tiffany Tresler
+administrator: Cathleen Lopez
 phone: 410-313-2806
 fax: 410-313-2810
 address: 9125 Northfield Road
@@ -32,22 +32,17 @@ green-url:
 green-year: 2010, 2014
 
 leed: yes
-leed-url:
+leed-url: http://www.hcpss.org/schools/leed-certified/
 leed-level: Silver
-leed-color: A6A6A9
 leed-year: 2012
 
 pbis: 
 pbis-level: 
-pbis-color: 
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Platinum
 
 ---

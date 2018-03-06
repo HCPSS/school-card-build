@@ -7,10 +7,10 @@ file-name: swansfield
 primary-color: rgb(0, 51, 102)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/ses/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/ses-student-computer-lab.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-ses-xs.png
 
-administrator: Maisha Strong
+administrator: Laurel Porter
 phone: 410-313-6907
 fax: 410-313-6910
 address: 5610 Cedar Lane
@@ -34,16 +34,12 @@ green-url:
 green-year: 2010, 2014
 
 pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis-level: Silver
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard:
-healthy-howard-level:
 
 ---

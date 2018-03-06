@@ -7,7 +7,7 @@ file-name: westfriendship
 primary-color: rgb(0, 51, 0)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/wfes/header-kids.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/wfes-students-group-library.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-wfes-xs.png
 
 administrator: Kaye Breon
@@ -31,17 +31,13 @@ green: yes
 green-url:
 green-year: 2007, 2010, 2014
 
-pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis: 
+pbis-level: 
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard:
-healthy-howard-level:
 
 ---

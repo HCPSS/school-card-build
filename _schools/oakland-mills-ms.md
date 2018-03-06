@@ -7,7 +7,7 @@ file-name: oaklandmills
 primary-color: rgb(153,0,0)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/omms/header-kids.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/03/omms-teacher-hallway-walking.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-omms-xs.png
 
 administrator: Megan Chrobak
@@ -33,7 +33,6 @@ green-year:
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: 
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

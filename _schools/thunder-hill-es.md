@@ -7,7 +7,7 @@ file-name: thunderhill
 primary-color: rgb(0, 102, 153)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/thes/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2018/02/thes-students-three-cafeteria.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-thes-xs.png
 
 administrator: Martha Bowen
@@ -32,22 +32,17 @@ green-url:
 green-year: 2010, 2014
 
 leed: yes
-leed-url:
+leed-url: http://www.hcpss.org/schools/leed-certified/
 leed-level: Silver
-leed-color: A6A6A9
 leed-year: 2015
 
 pbis: yes
 pbis-level: Gold
-pbis-color: D7A03B
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Gold
 
 ---

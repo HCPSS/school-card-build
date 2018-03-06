@@ -7,10 +7,10 @@ file-name: oaklandmills
 primary-color: rgb(0, 0, 0)
 level: hs
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/omhs-basketball-team-award-group.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2016/09/omhs-orchestra-students.jpg
 mascot: http://omhs.hcpss.org/sites/default/files/omhs-letters.png
 
-administrator: Kathy Orlando
+administrator: Elaine Reid (Acting)
 phone: 410-313-6945
 fax: 410-313-6948
 address: 9410 Kilimanjaro Road
@@ -31,9 +31,8 @@ green:
 green-url:
 green-year:
 
-pbis: 
-pbis-level: 
-pbis-color: 
+pbis: yes
+pbis-level: Bronze
 
 blue: 
 blue-year: 
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Silver
- 
 ---

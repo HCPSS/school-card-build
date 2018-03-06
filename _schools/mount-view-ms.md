@@ -7,7 +7,7 @@ file-name: mountview
 primary-color: rgb(153, 102, 153)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/mvms/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/mvms-students-computer-lab.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-mvms-xs.png
 
 administrator: Allen Cosentino
@@ -32,8 +32,7 @@ green-url:
 green-year: 2011, 2015
 
 pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis-level: Silver
 
 blue: 
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

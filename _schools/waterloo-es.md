@@ -7,7 +7,7 @@ file-name: waterloo
 primary-color: rgb(153, 0, 0)
 level: es
 
-bg-image: http://www.hcpss.org/mrb/wates/header-kids.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/wates-students-activity-early-childhood.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-wates-xs.png
 
 administrator: Sean Martin
@@ -27,21 +27,17 @@ msde-report: yes
 walk-area: yes
 walk-area-url: waterloo-es-walk-area.pdf
 
-green:
+green: yes
 green-url:
-green-year:
+green-year: 2016
 
 pbis: yes
 pbis-level: Gold
-pbis-color: D7A03B
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Platinum
 
 ---
