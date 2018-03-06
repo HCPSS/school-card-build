@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2015/12/rbes-google-expeditions.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-rbes-xs.png
 
-administrator: Troy Todd
+administrator: Anthony Esposito
 phone: 410-313-6893
 fax: 410-313-6898
 address: 5215 W. Running Brook Road
@@ -34,17 +34,13 @@ green:
 green-url:
 green-year:
 
-pbis:
-pbis-level:
-pbis-color:
+pbis: yes
+pbis-level: Gold
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Gold
 
 ---

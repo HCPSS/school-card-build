@@ -7,7 +7,7 @@ file-name: lakeelkhorn
 primary-color: rgb(0,0,0)
 level: ms
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/lkms-students-running-club.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/10/girls-on-the-run-group-lems.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-lems-xs.png
 
 administrator: Lynnette Moore
@@ -31,9 +31,8 @@ green:
 green-url:
 green-year:
 
-pbis:
-pbis-level:
-pbis-color:
+pbis: yes
+pbis-level: Bronze
 
 blue: 
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

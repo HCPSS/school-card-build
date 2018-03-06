@@ -31,11 +31,10 @@ walk-area-url: deep-run-es-walk-area.pdf
 
 green: yes
 green-url:
-green-year: 2009, 2013
+green-year: 2009, 2013, 2017
 
-pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis:
+pbis-level:
 
 blue: 
 blue-year:  
@@ -43,7 +42,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard:
-healthy-howard-level:
- 
 ---

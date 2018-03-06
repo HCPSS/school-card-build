@@ -7,7 +7,7 @@ file-name: longreach
 primary-color: rgb(119, 73, 168)
 level: hs
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/lrhs-pep-rally-students.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/09/lrhs-2017-pep-rally.jpg
 mascot: http://lrhs.hcpss.org/sites/default/files/lrhs-mascot_0.png
 
 administrator: Josh Wasilewski
@@ -33,7 +33,6 @@ green-year:
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: 
 blue-year: 
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Silver
- 
 ---

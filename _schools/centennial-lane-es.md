@@ -29,11 +29,10 @@ walk-area-url: centennial-lane-es-walk-area.pdf
 
 green: yes
 green-url:
-green-year: 2009, 2013
+green-year: 2009, 2013, 2017
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: yes
 blue-year: 2004 
@@ -41,7 +40,4 @@ blue-year: 2004
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

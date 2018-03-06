@@ -7,7 +7,7 @@ file-name: hammond
 primary-color: rgb(0, 102, 304)
 level: ms
 
-bg-image: http://www.hcpss.org/mrb/hms/header-kids.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/hms-students-outside-run.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-hms-xs.png
 
 administrator: Aaron Dale, Ph.D
@@ -32,8 +32,7 @@ green-url:
 green-year: 2002, 2006, 2010, 2014
 
 pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis-level: Silver
 
 blue: yes
 blue-year: 2009
@@ -41,7 +40,4 @@ blue-year: 2009
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

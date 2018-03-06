@@ -27,13 +27,12 @@ msde-report: yes
 walk-area: yes
 walk-area-url: clarksville-ms-walk-area.pdf
 
-green:
+green: yes
 green-url:
-green-year:
+green-year: 2016
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: yes
 blue-year: 2008 
@@ -41,7 +40,4 @@ blue-year: 2008
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Silver
- 
 ---

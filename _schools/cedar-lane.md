@@ -7,7 +7,7 @@ file-name: cedarlane
 primary-color: rgb(0, 102, 204)
 level: ec
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/05/cedar-lane-school-virtual-marathon-students-awards.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/cls-student.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-cls-xs.png
 
 administrator: Paul Owens

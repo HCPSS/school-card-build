@@ -7,7 +7,7 @@ file-name: howard
 primary-color: rgb(24, 52, 99)
 level: hs
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/howard-hs-field-hockey-play.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/howard-hs-dance-program-performance.jpg
 mascot: http://hohs.hcpss.org/sites/default/files/howardhs.png
 
 administrator: Nick Novak
@@ -32,8 +32,7 @@ green-url:
 green-year: 2011, 2015
 
 pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis-level: Silver
 
 blue: 
 blue-year: 
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Silver
- 
 ---

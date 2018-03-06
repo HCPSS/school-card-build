@@ -34,14 +34,11 @@ green-url:
 green-year: 2014
 
 leed: yes
-leed-url:
 leed-level: Silver
-leed-color: A6A6A9
 leed-year: 2016
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: 
 blue-year:
@@ -49,7 +46,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Platinum
- 
 ---

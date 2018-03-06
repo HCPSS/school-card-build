@@ -7,7 +7,7 @@ file-name: manorwoods
 primary-color: rgb(153, 0, 0)
 level: es
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/12/mwes-blue-ribbon-school-award.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2017/09/mwes-students-orchestra.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-mwes-xs.png
 
 administrator: Carol DeBord
@@ -32,16 +32,12 @@ green-url:
 green-year: 2010, 2014
 
 pbis: yes
-pbis-level: Bronze
-pbis-color: BA8748
+pbis-level: Silver
 
 blue: yes
 blue-year: 2016
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Silver
 
 ---

@@ -33,7 +33,6 @@ green-year: 1999, 2010, 2014
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: yes
 blue-year: 2005 
@@ -41,7 +40,4 @@ blue-year: 2005
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Silver
- 
 ---

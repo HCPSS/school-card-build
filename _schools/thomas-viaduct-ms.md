@@ -32,14 +32,12 @@ green-url:
 green-year:
 
 leed: yes
-leed-url:
+leed-url: http://www.hcpss.org/schools/leed-certified/
 leed-level: Silver
-leed-color: A6A6A9
 leed-year: 2015
 
 pbis: yes
-pbis-level: Bronze
-pbis-color: 9f6e14
+pbis-level: Silver
 
 blue: 
 blue-year:
@@ -47,7 +45,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

@@ -32,8 +32,7 @@ green-url:
 green-year: 2011, 2015
 
 pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis-level: Silver
 
 blue: 
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

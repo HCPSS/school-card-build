@@ -33,7 +33,6 @@ green-year: 2015
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: 
 blue-year: 
@@ -41,7 +40,4 @@ blue-year:
 nce: yes
 nce-year: 2015
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

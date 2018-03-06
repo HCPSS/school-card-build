@@ -212,22 +212,40 @@ sidebar_view: no
 
               {% if school.green != null or school.pbis != null or school.blue != null or school.nce != null or school.healthy-howard != null %}
               <p><strong>Achievements</strong></p>
-              {% endif %} 
+              {% endif %}
+
               {% if school.green != null %}
               <div class="sch-card__data">
                 <i class="sch-card__icon fa fa-leaf fa-2" style="color:#015700;"></i><span class="sch-card__icon-text"> {% if school.green-url != null %}<a href="{{ school.green-url }}" target="_blank">{% endif %} Green School{% if school.green-url != null %}</a>{% endif %}  – {{ school.green-year }}</span>
               </div>
               {% endif %}
+
               {% if school.leed != null %}
               <div class="sch-card__data">
-                <i class="sch-card__icon fa fa-leaf fa-2" style="color:#{{ school.leed-color }}"></i><span class="sch-card__icon-text"> {% if school.leed-url != null %}<a href="{{ school.leed-url }}" target="_blank">{% endif %} LEED School, {{ school.leed-level }}{% if school.leed-url != null %}</a>{% endif %}  – {{ school.leed-year }}</span>
+                {% case school.leed-level %}
+                  {% when 'Gold' %}                         
+                    <i class="sch-card__icon fa fa-leaf fa-2" style="color:#FECC6A;"></i><span class="sch-card__icon-text">
+                  {% when 'Silver' %}
+                    <i class="sch-card__icon fa fa-leaf fa-2" style="color:#A8A9AD;"></i><span class="sch-card__icon-text">
+                  {% else %}
+                    <i class="sch-card__icon fa fa-leaf fa-2" style="color:#BA8748;"></i><span class="sch-card__icon-text">
+                {% endcase %}
+                <a href="http://www.hcpss.org/schools/leed-certified/" target="_blank">LEED School, {{ school.leed-level }} – {{ school.leed-year }}</a></span>
               </div>
-              {% endif %}          
+              {% endif %}
+
               {% if school.pbis != null %}
               <div class="sch-card__data">
-                <i class="sch-card__icon fa fa-star fa-2" style="color:#{{ school.pbis-color }};"></i><span class="sch-card__icon-text"> PBIS Maryland {{ school.pbis-level }}</span>
+              {% case school.pbis-level %}
+                {% when 'Gold' %}
+                  <i class="sch-card__icon fa fa-star fa-2" style="color:#FECC6A;"></i><span class="sch-card__icon-text"> PBIS Maryland {{ school.pbis-level }}</span>
+                {% when 'Silver' %}
+                  <i class="sch-card__icon fa fa-star fa-2" style="color:#A8A9AD;"></i><span class="sch-card__icon-text"> PBIS Maryland {{ school.pbis-level }}</span>
+                {% else %}
+                  <i class="sch-card__icon fa fa-star fa-2" style="color:#BA8748;"></i><span class="sch-card__icon-text"> PBIS Maryland {{ school.pbis-level }}</span>                
+              {% endcase %}
               </div>
-              {% endif %} 
+              {% endif %}
               {% if school.blue != null %}
         			<div class="sch-card__data">
         				<i class="sch-card__icon fa fa-star fa-2" style="color:#0063A4;"></i><span class="sch-card__icon-text"> Blue Ribbon School – {{ school.blue-year }}</span>
@@ -237,12 +255,7 @@ sidebar_view: no
             	<div class="sch-card__data">
             		<i class="sch-card__icon fa fa-trophy fa-2" style="color:#C51230;"></i><span class="sch-card__icon-text"> <a href="https://www.nasc.us/national-councils-of-excellence" target="_blank">National Council of Excellence School</a> – {{ school.nce-year }}</span>
             	</div>
-            	{% endif %}			         
-              {% if school.healthy-howard != null %}
-              <div class="sch-card__data">
-                <i class="sch-card__icon fa fa-heart fa-2" style="color:#953993;"></i><span class="sch-card__icon-text"> Healthy Howard School - {{ school.healthy-howard-level }}</span>
-              </div>
-              {% endif %}
+            	{% endif %}
             </div>
           <div class="col-right">
             <p><strong><a href="{{ school.gmap }}" target="_blank">Get Directions</a></strong></p>

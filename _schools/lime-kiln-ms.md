@@ -29,11 +29,10 @@ walk-area-url: lime-kiln-ms-walk-area.pdf
 
 green: yes
 green-url:
-green-year: 2008, 2012
+green-year: 2008, 2012, 2016
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: yes 
 blue-year: 2010
@@ -41,7 +40,4 @@ blue-year: 2010
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Silver
- 
 ---

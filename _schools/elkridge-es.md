@@ -7,7 +7,7 @@ file-name: elkridge
 primary-color: rgb(0, 102, 204)
 level: es
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/ees-stem-fair.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/ees-student-sitting-class-group.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-ees-xs.png
 
 administrator: Michael Caldwell
@@ -33,7 +33,6 @@ green-year:
 
 pbis: 
 pbis-level: 
-pbis-color: 
 
 blue: 
 blue-year:  
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Platinum
- 
 ---

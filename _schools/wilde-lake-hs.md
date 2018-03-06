@@ -7,7 +7,7 @@ file-name: wildelake
 primary-color: rgb(30, 105, 7)
 level: hs
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/wlhs-students-sporting-event.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/wlhs-graduation-group-singing.jpg
 mascot: http://wlhs.hcpss.org/sites/default/files/wilde-lake-hs-logo-circle_1.png
 
 administrator: Rick Wilson
@@ -32,8 +32,7 @@ green-url:
 green-year:
 
 pbis: yes
-pbis-level: Gold
-pbis-color: FECC6A
+pbis-level: Silver
 
 blue:
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

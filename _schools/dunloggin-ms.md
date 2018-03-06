@@ -7,7 +7,7 @@ file-name: dunloggin
 primary-color: rgb(102, 0, 0)
 level: ms
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/09/dms-lego-grant-group.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/dms-student-group-outside.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-dms-xs.png
 
 administrator: Jeffery Fink
@@ -33,7 +33,6 @@ green-year: 2007, 2011, 2015
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: 
 blue-year:  
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Silver
- 
 ---

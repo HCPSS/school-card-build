@@ -29,11 +29,10 @@ walk-area-url:
 
 green: yes
 green-url:
-green-year: 2001, 2009, 2013
+green-year: 2001, 2009, 2013, 2017
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue:
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Platinum
- 
 ---

@@ -33,15 +33,11 @@ green-year:
 
 pbis: 
 pbis-level: 
-pbis-color: 
 
 blue: yes
 blue-year: 2010
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Gold
  
 ---

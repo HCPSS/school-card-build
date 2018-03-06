@@ -27,21 +27,17 @@ msde-report: yes
 walk-area: yes
 walk-area-url: waterloo-es-walk-area.pdf
 
-green:
+green: yes
 green-url:
-green-year:
+green-year: 2016
 
 pbis: yes
 pbis-level: Gold
-pbis-color: D7A03B
 
 blue: 
 blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Platinum
 
 ---

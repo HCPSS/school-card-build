@@ -29,11 +29,10 @@ walk-area-url: forest-ridge-es-walk-area.pdf
 
 green: yes
 green-url:
-green-year: 2009, 2013
+green-year: 2009, 2013, 2017
 
 pbis: yes
-pbis-level: Silver
-pbis-color: A8A9AD
+pbis-level: Gold
 
 blue: 
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Platinum
- 
 ---

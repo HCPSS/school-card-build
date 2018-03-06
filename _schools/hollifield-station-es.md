@@ -29,11 +29,10 @@ walk-area-url: hollifield-station-es-walk-area.pdf
 
 green: yes
 green-url:
-green-year: 2009, 2013
+green-year: 2009, 2013, 2017
 
-pbis:
-pbis-level: 
-pbis-color:
+pbis: yes
+pbis-level: Gold
 
 blue:
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard:
-healthy-howard-level:
- 
 ---

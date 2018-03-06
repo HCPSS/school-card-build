@@ -1,7 +1,7 @@
 ---
 layout: schools
 
-title: Mount Hebron High
+title: Mt. Hebron High
 acronym: mhhs
 file-name: mounthebron
 primary-color: rgb(0, 0, 0)
@@ -33,7 +33,6 @@ green-year:
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: 
 blue-year: 
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

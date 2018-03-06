@@ -33,7 +33,6 @@ green-year: 2014
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: 
 blue-year: 

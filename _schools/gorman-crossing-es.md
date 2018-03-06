@@ -33,7 +33,6 @@ green-year: 2011
 
 pbis: yes
 pbis-level: Silver
-pbis-color: A8A9AD
 
 blue:
 blue-year:
@@ -41,7 +40,4 @@ blue-year:
 nce:
 nce-year:
 
-healthy-howard: yes
-healthy-howard-level: Gold
- 
 ---

@@ -29,27 +29,21 @@ msde-report: yes
 walk-area: yes
 walk-area-url: ducketts-lane-es-walk-area.pdf 
 
-green:
+green: yes
 green-url:
-green-year:
+green-year: 2016
 
 leed: yes
-leed-url:
 leed-level: Gold
-leed-color: FECC6A
 leed-year: 2015
 
 pbis: yes
-pbis-level: Silver
-pbis-color: A8A9AD
+pbis-level: Gold
 
 blue: 
 blue-year:  
 
 nce:
 nce-year:
-
-healthy-howard:
-healthy-howard-level:
  
 ---

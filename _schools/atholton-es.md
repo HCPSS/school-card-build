@@ -29,11 +29,10 @@ walk-area-url: atholton-es-walk-area.pdf
 
 green: yes
 green-url: http://aesisgreen.weebly.com/index.html
-green-year: 2009, 2013
+green-year: 2009, 2013, 2017
 
 pbis: yes
 pbis-level: Gold
-pbis-color: FECC6A
 
 blue: 
 blue-year:

@@ -7,7 +7,7 @@ file-name: riverhill
 primary-color: rgb(80, 171, 221)
 level: hs
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/rhhs-band-student-group.jpg
+bg-image: http://www.hcpss.org/wp-content/uploads/2018/02/rhhs-sport-event-crowd.jpg
 mascot: http://rhhs.hcpss.org/sites/default/files/rhhs-color_0.png
 
 administrator: Kathryn McKinley
@@ -33,7 +33,6 @@ green-year:
 
 pbis:
 pbis-level:
-pbis-color:
 
 blue: yes
 blue-year: 2008
@@ -41,7 +40,4 @@ blue-year: 2008
 nce: yes
 nce-year: 2012, 2015
 
-healthy-howard: yes
-healthy-howard-level: Silver
- 
 ---

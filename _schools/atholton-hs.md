@@ -7,7 +7,7 @@ file-name: atholton
 primary-color: rgb(114,157,79)
 level: hs
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/ahs-chorus-concert.jpg
+bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/ahs-basketball-team.jpg
 mascot: http://ahs.hcpss.org/sites/default/files/atholtonhs.png
 
 administrator: JoAnn Hutchens
@@ -32,9 +32,7 @@ green-url:
 green-year:
 
 leed: yes
-leed-url:
 leed-level: Gold
-leed-color: FECC6A
 leed-year: 2016
 
 pbis:
@@ -46,8 +44,5 @@ blue-year:
 
 nce:
 nce-year:
-
-healthy-howard: yes
-healthy-howard-level: Silver
 
 ---
