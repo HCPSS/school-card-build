@@ -10,7 +10,7 @@ level: ms
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/elms-group.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-elms-xs.png
 
-administrator: Gina Cash
+administrator: David Strothers
 phone: 410-313-5040
 fax: 410-313-5045
 address: 7085 Montgomery Road

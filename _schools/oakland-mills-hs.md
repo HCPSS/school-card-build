@@ -10,7 +10,7 @@ level: hs
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/09/omhs-orchestra-students.jpg
 mascot: http://omhs.hcpss.org/sites/default/files/omhs-letters.png
 
-administrator: Elaine Reid (Acting)
+administrator: Jeffrey Fink
 phone: 410-313-6945
 fax: 410-313-6948
 address: 9410 Kilimanjaro Road

@@ -14,8 +14,8 @@ administrator: Rick Robb
 phone: 410-880-5840
 fax: 410-880-5843
 address: 9151 Vollmerhausen Road
-town: Jessup
-zip: 20794
+town: Savage
+zip: 20763
 hours: 7:40 a.m. – 2:25 p.m.
 gmap: https://www.google.com/maps/place/Patuxent+Valley+Middle+School/@39.1465566,-76.8265491,16.02z/data=!4m2!3m1!1s0x89b7ddfe4bf6694f:0x7160e73abe4c55d7?hl=en
 

@@ -10,7 +10,7 @@ level: hs
 bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/ahs-basketball-team.jpg
 mascot: http://ahs.hcpss.org/sites/default/files/atholtonhs.png
 
-administrator: JoAnn Hutchens
+administrator: Robert Motley
 phone: 410-313-7065
 fax: 410-313-7078
 address: 6520 Freetown Road

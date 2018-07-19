@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/sfes-students-teacher-library-books.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-sfes-xs.png
 
-administrator: Ernesto Diaz
+administrator: Joy Smith
 phone: 410-313-6900
 fax: 410-313-6903
 address: 6045 Stevens Forest Road

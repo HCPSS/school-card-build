@@ -4,22 +4,17 @@ title: Schools
 sidebar_view: no
 ---
 
-<div class="contents">
-<div class="col-left">
-<div class="callout-border-prim" style="text-align:center;">
-<div style="text-align: center; vertical-align: middle; display: table-cell;"><img src="https://www.hcpss.org/wp-content/uploads/2017/11/magnifying-glass-home-promo.jpg" alt="" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);"></div>
-<p><a href="http://www.infofinderi.com/ifi/?cid=HCP2IOASIJVW"><strong style="font-size: 1.4em;">School / Bus Locator<br>2017-2018 School Year</strong></a></p>
- <p class="filemeta">Learn your current assigned school and bus stop.</p> 
+<section class="contents">
+
+<div style="margin:0 auto; width:50%;">
+<div class="callout-border-prim" style="margin: 0;">
+<div style="text-align: center;vertical-align: middle;display: table-cell;"><img src="https://www.hcpss.org/wp-content/uploads/2017/09/finger-on-map.jpg" alt="" style="
+    width: 60%;
+"></div>
+<p><a href="http://hcpss-gis.maps.arcgis.com/apps/webappviewer/index.html?id=06528401636a4a48b1ef681c66a61a07" target="_blank"><strong>School Locator – 2018-2019 School Year</strong></a><br><span class="filemeta">Bus stop information will be available by mid-August.</span></p>
 </div>
 </div>
-<div class="col-right">
-<div class="callout-border-prim" style="text-align:center;">
-<div style="text-align: center; vertical-align: middle; display: table-cell;"><img src="https://www.hcpss.org/wp-content/uploads/2017/09/finger-on-map.jpg" alt="" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);"></div>
-<p><a href="http://hcpss-gis.maps.arcgis.com/apps/webappviewer/index.html?id=06528401636a4a48b1ef681c66a61a07"><strong style="font-size: 1.4em;">School Locator<br>2018-2019 School Year</strong></a></p>
-<p class="filemeta">Bus stop information will be available during the summer.</p>
-</div>
-</div>
-</div>
+</section>
 
 <p><a href="/schools/enrollment-reports/">View enrollment data →</a></p>
 
@@ -32,7 +27,7 @@ sidebar_view: no
           <input type="radio" name="sch-lvl-filter" id="all-schools" class="label-change" value="*" checked=""> <span>All Schools (76)</span>
         </label>
         <label for="es">
-          <input type="radio" name="sch-lvl-filter" id="es" class="label-change" value=".sch-card__es"> <span>Elementary (41)</span>
+          <input type="radio" name="sch-lvl-filter" id="es" class="label-change" value=".sch-card__es"> <span>Elementary (42)</span>
         </label>
         <label for="ms">
           <input type="radio" name="sch-lvl-filter" id="ms" class="label-change" value=".sch-card__ms"> <span>Middle (20)</span>
@@ -89,9 +84,6 @@ sidebar_view: no
       </label>  
       <label for="pbis-winner">
         <input type="checkbox" name="filter" id="pbis-winner" class="label-change" value=".sch-card__pbis"> <span><span aria-label="Positive Behavioral Intervention and Supports">PBIS</span> Award Winner<br /></span>
-      </label>  
-      <label for="healthy-howard">
-        <input type="checkbox" name="filter" id="healthy-howard" class="label-change" value=".sch-card__healthy"> <span>Healthy Howard School<br /></span>
       </label>   
     </div>
   </section>
@@ -177,7 +169,7 @@ sidebar_view: no
 <section id="sch-carddata" class="flex-contain-row-wrap">
 
   {% for school in site.schools %}
-  <div class="sch-card sch-card__{{ school.level }}{% if school.town != null %} sch-card__{{ school.town | downcase | remove: " " }}{% endif %}{% if school.green != null %} sch-card__green{% endif %}{% if school.pbis != null %} sch-card__pbis{% endif %}{% if school.title-I != null %} sch-card__titlei{% endif %}{% if school.esm != null %} sch-card__esm{% endif %}{% if school.healthy-howard != null %} sch-card__healthy{% endif %}{% if school.blue != null %} sch-card__blue-ribbon{% endif %}{% if school.nce != null %} sch-card__nce{% endif %}{% if school.leed != null %} sch-card__leed{% endif %}">
+  <div class="sch-card sch-card__{{ school.level }}{% if school.town != null %} sch-card__{{ school.town | downcase | remove: " " }}{% endif %}{% if school.green != null %} sch-card__green{% endif %}{% if school.pbis != null %} sch-card__pbis{% endif %}{% if school.title-I != null %} sch-card__titlei{% endif %}{% if school.esm != null %} sch-card__esm{% endif %}{% if school.blue != null %} sch-card__blue-ribbon{% endif %}{% if school.nce != null %} sch-card__nce{% endif %}{% if school.leed != null %} sch-card__leed{% endif %}">
 
       <div class="{{ school.level }}-lazy sch-card__bg-image" data-original="{{ school.bg-image }}"></div>
 

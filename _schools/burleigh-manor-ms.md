@@ -10,7 +10,7 @@ level: ms
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/bmms-laptop-class.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-bmms-xs.png
 
-administrator: Antoinette Roberson
+administrator: Mikaela Lidgard
 phone: 410-313-2507
 fax: 410-313-2513
 address: 4200 Centennial Lane

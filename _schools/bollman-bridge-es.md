@@ -14,8 +14,8 @@ administrator: Rhonda Inskeep
 phone: 410-880-5920
 fax: 410-880-5923
 address: 8200 Savage-Guilford Road
-town: Jessup
-zip: 20794
+town: Savage
+zip: 20763
 hours: 8:35 a.m. – 3:05 p.m.
 gmap: https://www.google.com/maps/place/Bollman+Bridge+Elementary+School/@39.1459103,-76.8297667,17z/data=!3m1!4b1!4m2!3m1!1s0x89b7ddff128136c3:0x31972a686425646c?hl=en
 

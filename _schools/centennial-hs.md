@@ -10,7 +10,7 @@ level: hs
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/chs-student-group.jpg
 mascot: http://chs.hcpss.org/sites/default/files/centennialhs_0.png
 
-administrator: Claire Hafets
+administrator: Cynthia Dillon
 phone: 410-313-2856
 fax: 410-313-2861
 address: 4300 Centennial Lane

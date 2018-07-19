@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2017/03/ies-students-group-photo.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-ies-xs.png
 
-administrator: Dr. Joy Smith
+administrator: Ernesto Diaz
 phone: 410-313-2524
 fax: 410-313-2527
 address: 4981 Ilchester Road

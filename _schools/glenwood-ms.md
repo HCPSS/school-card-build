@@ -10,7 +10,7 @@ level: ms
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/10/gms-outdoor-group.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-gms-xs.png
 
-administrator: Robert Motley
+administrator: Gina Cash
 phone: 410-313-5520
 fax: 410-313-5534
 address: 2680 Route 97

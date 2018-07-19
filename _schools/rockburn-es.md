@@ -10,7 +10,7 @@ level: es
 bg-image: http://www.hcpss.org/wp-content/uploads/2018/02/res-students-classroom-group.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-res-xs.png
 
-administrator: Lauren Bauer
+administrator: Elizabeth Yankle
 phone: 410-313-5030
 fax: 410-313-5036
 address: 6145 Montgomery Road

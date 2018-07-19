@@ -10,7 +10,7 @@ level: ms
 bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/dms-student-group-outside.jpg
 mascot: http://www.hcpss.org/f/mrb/mascots/mascot-dms-xs.png
 
-administrator: Jeffery Fink
+administrator: Antoinette Roberson
 phone: 410-313-2831
 fax: 410-313-2530
 address: 9129 Northfield Road
