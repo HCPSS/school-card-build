@@ -34,7 +34,7 @@ green-year: 2010, 2014
 leed: yes
 leed-url: http://www.hcpss.org/schools/leed-certified/
 leed-level: Silver
-leed-year: 2015
+leed-year: 2013
 
 pbis: yes
 pbis-level: Gold

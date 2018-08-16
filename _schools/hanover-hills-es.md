@@ -24,8 +24,8 @@ sidebar_view: no
 profile: null
 msde-report: null
 
-walk-area:
-walk-area-url:
+walk-area: yes
+walk-area-url: http://www.hcpss.org/f/schools/hanover-hills-es-walk-area.pdf
 
 green:
 green-url:

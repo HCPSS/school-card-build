@@ -34,6 +34,7 @@ green-url:
 green-year: 2016
 
 leed: yes
+leed-url: http://www.hcpss.org/schools/leed-certified/
 leed-level: Gold
 leed-year: 2015
 
