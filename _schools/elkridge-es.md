@@ -17,7 +17,7 @@ address: 7075 Montgomery Road
 city: Elkridge
 zip: 21075
 hours: 9:25 a.m. – 3:55 p.m.
-gmap: https://www.google.com/maps/place/Dunloggin+Middle+School/@39.2564951,-76.8343849,17z/data=!4m2!3m1!1s0x89c820212b1ddd77:0x9ee691c56e075e85?hl=en
+gmap: https://www.google.com/maps/place/Elkridge+Elementary+School/@39.2136667,-76.7310896,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7e203f29e49b7:0x1cbbf9d3b3452700!8m2!3d39.2136667!4d-76.7289009?hl=en
 
 sidebar_view: no
 

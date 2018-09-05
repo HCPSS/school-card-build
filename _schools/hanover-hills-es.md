@@ -7,7 +7,7 @@ file-name: hanover-hills
 primary-color: rgb(21, 38, 117)
 level: es
 
-bg-image: https://www.hcpss.org/wp-content/uploads/2018/07/hhes-outside-building.jpg
+bg-image: https://news.hcpss.org/wp-content/uploads/2018/09/hhes-outside-building-august-2018.jpg
 mascot: https://www.hcpss.org/wp-content/uploads/2018/07/mascot-hhes-xs.png
 
 administrator: Troy Todd
