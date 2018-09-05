@@ -8,7 +8,7 @@ primary-color: rgb(189, 0, 32)
 level: hs
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/ghs-student-pep-rally.jpg
-mascot: http://ghs.hcpss.org/sites/default/files/glenelghs.png
+mascot: https://ghs.hcpss.org/sites/default/files/glenelghs.png
 
 administrator: David Burton
 phone: 410-313-5528

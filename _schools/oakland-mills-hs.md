@@ -8,7 +8,7 @@ primary-color: rgb(0, 0, 0)
 level: hs
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/09/omhs-orchestra-students.jpg
-mascot: http://omhs.hcpss.org/sites/default/files/omhs-letters.png
+mascot: https://omhs.hcpss.org/sites/default/files/omhs-letters.png
 
 administrator: Jeffrey Fink
 phone: 410-313-6945

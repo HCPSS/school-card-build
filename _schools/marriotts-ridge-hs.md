@@ -8,7 +8,7 @@ primary-color: rgb(19, 44, 97)
 level: hs
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/mrhs-student-production.jpg
-mascot: http://mrhs.hcpss.org/sites/default/files/marriottsridgehs.png
+mascot: https://mrhs.hcpss.org/sites/default/files/marriottsridgehs.png
 
 administrator: Tammy Goldeisen
 phone: 410-313-5568

@@ -8,7 +8,7 @@ primary-color: rgb(0, 44, 119)
 level: hs
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/chs-student-group.jpg
-mascot: http://chs.hcpss.org/sites/default/files/centennialhs_0.png
+mascot: https://chs.hcpss.org/sites/default/files/centennialhs_0.png
 
 administrator: Cynthia Dillon
 phone: 410-313-2856

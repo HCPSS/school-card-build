@@ -8,7 +8,7 @@ primary-color: rgb(134, 0, 7)
 level: ec
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/09/homewood-garden-students.jpg
-mascot: http://hc.hcpss.org/sites/default/files/hc-phoenix.png
+mascot: https://hc.hcpss.org/sites/default/files/hc-phoenix.png
 
 administrator: Christina Krabitz
 phone: 410-313-7081

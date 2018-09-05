@@ -8,7 +8,7 @@ primary-color: rgb(30, 105, 7)
 level: hs
 
 bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/wlhs-graduation-group-singing.jpg
-mascot: http://wlhs.hcpss.org/sites/default/files/wilde-lake-hs-logo-circle_1.png
+mascot: https://wlhs.hcpss.org/sites/default/files/wilde-lake-hs-logo-circle_1.png
 
 administrator: Rick Wilson
 phone: 410-313-6965

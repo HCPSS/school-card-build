@@ -8,7 +8,7 @@ primary-color: rgb(24, 52, 99)
 level: hs
 
 bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/howard-hs-dance-program-performance.jpg
-mascot: http://hohs.hcpss.org/sites/default/files/howardhs.png
+mascot: https://hohs.hcpss.org/sites/default/files/howardhs.png
 
 administrator: Nick Novak
 phone: 410-313-2867

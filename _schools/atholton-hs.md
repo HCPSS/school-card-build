@@ -8,7 +8,7 @@ primary-color: rgb(114,157,79)
 level: hs
 
 bg-image: https://www.hcpss.org/wp-content/uploads/2018/02/ahs-basketball-team.jpg
-mascot: http://ahs.hcpss.org/sites/default/files/atholtonhs.png
+mascot: https://ahs.hcpss.org/sites/default/files/atholtonhs.png
 
 administrator: Robert Motley
 phone: 410-313-7065

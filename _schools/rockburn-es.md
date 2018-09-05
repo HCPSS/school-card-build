@@ -4,11 +4,11 @@ layout: schools
 title: Rockburn Elementary
 acronym: res
 file-name: rockburn
-primary-color: rgb(51, 153, 0)
+primary-color: rgb(0, 44, 119)
 level: es
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2018/02/res-students-classroom-group.jpg
-mascot: http://www.hcpss.org/mrb/mascots/mascot-res-xs.png
+mascot: http://res.hcpss.org/sites/default/files/res-site.png
 
 administrator: Elizabeth Yankle
 phone: 410-313-5030

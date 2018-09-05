@@ -8,7 +8,7 @@ primary-color: rgb(80, 171, 221)
 level: hs
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2018/02/rhhs-sport-event-crowd.jpg
-mascot: http://rhhs.hcpss.org/sites/default/files/rhhs-color_0.png
+mascot: https://rhhs.hcpss.org/sites/default/files/rhhs-color_0.png
 
 administrator: Kathryn McKinley
 phone: 410-313-7120

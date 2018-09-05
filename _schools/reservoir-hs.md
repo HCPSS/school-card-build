@@ -8,7 +8,7 @@ primary-color: rgb(58, 76, 148)
 level: hs
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/rhs-cheerleaders-group-routine.jpg
-mascot: http://rhs.hcpss.org/sites/default/files/reserviorhs.png
+mascot: https://rhs.hcpss.org/sites/default/files/reserviorhs.png
 
 administrator: Nelda Sims
 phone: 410-888-8850

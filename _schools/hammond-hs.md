@@ -8,7 +8,7 @@ primary-color: rgb(133, 0, 0)
 level: hs
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/hahs-orchestra-students.jpg
-mascot: http://hahs.hcpss.org/sites/default/files/hammondhs.png
+mascot: https://hahs.hcpss.org/sites/default/files/hammondhs.png
 
 administrator: John DiPaula
 phone: 410-313-7615

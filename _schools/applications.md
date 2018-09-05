@@ -8,7 +8,7 @@ primary-color: rgb(12,103,151)
 level: ec
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/arl-project-group.jpg
-mascot: http://arl.hcpss.org/sites/default/files/mascot-arl-xs_1.png
+mascot: https://arl.hcpss.org/sites/default/files/mascot-arl-xs_1.png
 
 administrator: Karl Schindler
 phone: 410-313-6998

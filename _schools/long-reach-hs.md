@@ -8,7 +8,7 @@ primary-color: rgb(119, 73, 168)
 level: hs
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2017/09/lrhs-2017-pep-rally.jpg
-mascot: http://lrhs.hcpss.org/sites/default/files/lrhs-mascot_0.png
+mascot: https://lrhs.hcpss.org/sites/default/files/lrhs-mascot_0.png
 
 administrator: Josh Wasilewski
 phone: 410-313-7117

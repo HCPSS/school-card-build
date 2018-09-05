@@ -8,7 +8,7 @@ primary-color: rgb(0, 0, 0)
 level: hs
 
 bg-image: http://www.hcpss.org/wp-content/uploads/2016/04/mhhs-theatre-arts-students.jpg
-mascot: http://mhhs.hcpss.org/sites/default/files/mouthebronhs.png
+mascot: https://mhhs.hcpss.org/sites/default/files/mouthebronhs.png
 
 administrator: Joelle Miller
 phone: 410-313-2880
