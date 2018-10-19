@@ -3,7 +3,7 @@ layout: schools
 
 title: Mt. Hebron High
 acronym: mhhs
-file-name: mounthebron
+file-name: mthebron
 primary-color: rgb(0, 0, 0)
 level: hs
 

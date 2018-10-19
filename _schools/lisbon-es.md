@@ -3,7 +3,7 @@ layout: schools
 
 title: Lisbon Elementary
 acronym: les
-file-name: jeffershill
+file-name: lisbon
 primary-color: rgb(0, 51, 153)
 level: es
 
