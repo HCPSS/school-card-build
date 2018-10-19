@@ -14,7 +14,7 @@ administrator: David Strothers
 phone: 410-313-5040
 fax: 410-313-5045
 address: 7085 Montgomery Road
-town: Ellicott City
+town: Elkridge
 zip: 21075
 hours: 8:00 a.m. – 2:45 p.m.
 gmap: https://www.google.com/maps/place/Elkridge+Landing+Middle+School/@39.2123186,-76.7314836,17z/data=!3m1!4b1!4m2!3m1!1s0x89b7e2039bb6f6cf:0x8275349c08cd7fa7?hl=en
