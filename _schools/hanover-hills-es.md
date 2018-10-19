@@ -12,7 +12,7 @@ mascot: https://www.hcpss.org/wp-content/uploads/2018/07/mascot-hhes-xs.png
 
 administrator: Troy Todd
 phone: 410-313-8066
-fax:
+fax: 410-712-0296
 address: 7030 Banbury Dr.
 town: Hanover
 zip: 21076
