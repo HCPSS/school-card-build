@@ -7,7 +7,7 @@ file-name: limekiln
 primary-color: rgb(102, 153, 102)
 level: ms
 
-bg-image: http://www.hcpss.org/wp-content/uploads/2017/04/lkms-group-roar-students.jpg
+bg-image: https://news.hcpss.org/wp-content/uploads/2018/10/lkms-students-classroom.jpg
 mascot: http://www.hcpss.org/mrb/mascots/mascot-lkms-xs.png
 
 administrator: Lucy Lublin
